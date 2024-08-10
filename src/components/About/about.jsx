@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "./assets/img1.svg";
+
 import "./about.css";
 
 const AboutSection = () => {
@@ -30,9 +30,7 @@ const AboutSection = () => {
           </p>
           <p>Always remember everything begins with an IDEA</p>
         </div>
-        <div className="about-right-section">
-          <img src={aboutImg} alt="img" className="hackathon-image" />
-        </div>
+
       </div>
     </div>
   );
