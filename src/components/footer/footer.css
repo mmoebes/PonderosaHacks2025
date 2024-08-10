@@ -26,12 +26,12 @@
 
 .logoContent {
   position: center;
-  width: 300px;
+  width: 100px;
 }
 
 .logoContent img {
-  width: 250px;
-  position: relative;
+  width: 100px;
+  position: center;
 }
 
 .venueContent {
@@ -182,7 +182,7 @@
 }
 
 .copyContainer p span {
-  color: #efa506;
+  color: #fff;
 }
 
 .mapContent iframe {

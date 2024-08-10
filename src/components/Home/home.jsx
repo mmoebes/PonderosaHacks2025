@@ -57,17 +57,22 @@ const Home = () => {
       <div className="section">
 
        <div className="left-section">
-       <div className="logo">
-          <img src={PonderosaHacksLogo} alt="PonderosaHacks" className="img" />
-        </div>
-        <h1 className="greetings">
-            Ponderosa Hacks&nbsp;
+          <div className="logo">
+            <img src={PonderosaHacksLogo} alt="PonderosaHacks" className="img" />
+          </div>
 
-          </h1>            
+          <h1 className="greetings">
+            Ponderosa
+          </h1> 
+
+          <h1 className="greetings">
+            Hacks
+          </h1>  
 
           <p className="home-text">
-            "Unlock your potential, solve challenges"
+                Unlock your potential, solve challenges
           </p>
+
           <h3 className="college-name">
             <a href="https://enrollbasis.com/flagstaff/" target="_blank">
               <span>

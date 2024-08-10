@@ -19,32 +19,35 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 2rem;
+  color: #a414e7;
 }
 
 .venue-subheading-left {
   width: 100%;
-  color: #fff;
+  color: #ffae00;
   padding-top: 2rem;
   text-align: center;
 }
 
 .venue-location a {
-  display: flex;
+  display: fixed;
   align-items: center;
   font-size: 1.5rem;
   text-decoration: none;
   gap: 10px;
   font-family: Poppins;
-  color: #fff;
+  color: #a414e7;
   /* gap: 10px; */
 }
 
 .venue-location > a > h4 {
   margin: 0;
+  color: #a414e7;
 }
 
 .venue-subheading-right {
-  width: 100%;
+  width: 75%;
+  align-items: center;
 }
 
 .venue-subheading-right iframe {
@@ -52,6 +55,7 @@
   height: 350px;
   border: 0;
   border-radius: 10px;
+  align-items: center;
 }
 
 .venue-location {
@@ -59,7 +63,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 280px) {
   .venue-container {
     flex-direction: column;
     justify-content: center;
@@ -78,13 +82,20 @@
     margin: 20px;
     width: 300px;
     height: auto;
+    align-items: center;
   }
 
   .venue-date {
     font-size: 2rem;
+    color: #ffae00;
+  }
+  .venue-address {
+    font-size: 2rem;
+    color: #ffae00;
+    align-items: center;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 281px) and (max-width: 367px) {
   .venue-subsection {
     flex-direction: column;
   }
