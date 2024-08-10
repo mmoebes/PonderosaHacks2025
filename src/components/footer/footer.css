@@ -19,14 +19,14 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  background-color: rgba(144, 151, 144, 0.8);
+  background-color: rgba(29, 104, 29, 0.8);
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .logoContent {
-  position: relative;
-  width: 400px;
+  position: center;
+  width: 300px;
 }
 
 .logoContent img {
@@ -165,7 +165,7 @@
 }
 
 .copyContainer {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(29, 104, 29, 0.8);
   background-color: rgba(29, 104, 29, 0.8);
   text-align: center;
 }
@@ -178,7 +178,7 @@
   text-transform: uppercase;
   box-sizing: border-box;
   font-family: Oswald, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: #efa506;
 }
 
 .copyContainer p span {

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import hackathonLogo from "/images/hackathon-logo.png";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -37,10 +36,16 @@ const Navbar = () => {
             <a href="#About">About</a>
           </li>
           <li className="borderXwidth">
-            <a href="#Theme">Theme</a>
+            <a href="#Theme">FAQs</a>
           </li>
           <li className="borderXwidth">
             <a href="#Venue">Venue</a>
+          </li>          
+          <li className="borderXwidth">
+            <a href="#Venue">Sponsors</a>
+          </li>
+          <li className="borderXwidth">
+            <a href="#Venue">Leadership</a>
           </li>
           <li className="borderXwidth">
             <a href="#Footer">Contact</a>

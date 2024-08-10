@@ -44,8 +44,8 @@
   cursor: pointer;
   width: calc(33% - 2rem);
   min-width: calc(33% - 2rem);
-  height: 400px;
-  min-height: 400px;
+  height: 300px;
+  min-height: 300px;
   perspective: 1000px;
   margin: 1rem;
   position: relative;
@@ -85,8 +85,8 @@
   background-size: cover;
   padding: 2rem;
   font-size: 1.618rem;
-  font-weight: 600;
-  color: #fff;
+  font-weight: bold;
+  color: #000000;
   overflow: hidden;
   font-family: Poppins, sans-serif;
 }
