@@ -134,7 +134,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #212529;
+    background: #0a522a;
     height: 30vh;
     width: 300px;
     transform: translate(-150%);
@@ -144,7 +144,7 @@
     padding-left: 40px;
     padding-right: 40px;
     transition: transform 1s ease-in;
-    box-shadow: 5px 0px 10px 0px #000;
+
     overflow: scroll;
   }
 
@@ -278,7 +278,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #212529;
+    background: #0a522a;
     height: 62vh;
     overflow: hidden;
     /* max-width: 300px; */
@@ -289,7 +289,7 @@
     padding-left: 40px;
     padding-right: 40px;
     transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #000;
+
     overflow: scroll;
   }
 
@@ -366,10 +366,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0009;
-  backdrop-filter: blur(0);
-  transition: backdrop-filter 0.3s ease-in-out;
-  z-index: 999;
+  background-color: #0a522a;
+
 }
 
 .navbar.scrolled {
@@ -389,7 +387,7 @@
 .bars {
   width: 30px;
   height: 4px;
-  background: #000;
+  background: #0a522a;
 }
 
 .bars::before,
@@ -398,7 +396,7 @@
   position: absolute;
   width: 30px;
   height: 4px;
-  background: #000;
+  background: #0a522a;
 }
 
 .bars::before {

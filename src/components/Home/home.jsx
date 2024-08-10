@@ -3,6 +3,7 @@ import "./home.css";
 import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
+import PonderosaHacksLogo from "/images/hackathon-logo.png";
 
 const Home = () => {
   // const hackathonDate = new Date('2024-10-05');
@@ -50,17 +51,40 @@ const Home = () => {
 
   return (
     <div className="home-container" id="Home">
-      <div className="title-container">
-        <h2 className="hackathon-title">
-           <span>1st ever Flagstaff High School Hackathon</span> 
-        </h2>
-      </div>
-      <h2 className="">&#x23;</h2>
+
+
+
       <div className="section">
-        <div className="left-section">
-          <h3 className="date">
-            <b className="lgx-counter">5</b> <span>October</span>
+
+       <div className="left-section">
+       <div className="logo">
+          <img src={PonderosaHacksLogo} alt="PonderosaHacks" className="img" />
+        </div>
+        <h1 className="greetings">
+            Ponderosa Hacks&nbsp;
+
+          </h1>            
+
+          <p className="home-text">
+            "Unlock your potential, solve challenges"
+          </p>
+          <h3 className="college-name">
+            <a href="https://enrollbasis.com/flagstaff/" target="_blank">
+              <span>
+                <IoLocationSharp />
+              </span>
+              BASIS Flagstaff
+              <br />
+              
+            </a>
           </h3>
+        </div>
+
+        <div className="right-section">
+          <h4 className="date">
+          <span> October 5, 2024 </span>
+          </h4>
+
           <div className="timer">
             <div className="timer-item">
               <div className="timer-item-value">{timeLeft.days}</div>
@@ -79,6 +103,8 @@ const Home = () => {
               <div className="timer-item-label">Seconds</div>
             </div>
           </div>
+
+
           <div className="button">
             <button
               type="button"
@@ -93,34 +119,12 @@ const Home = () => {
               className="btn btn-2 hover-slide-right discord"
             >
               <a href="https://discord.gg/q9vHfn9M" target="_blank">
-                Join Here <BsDiscord />
+                Sponsor <BsDiscord />
               </a>
             </button>
           </div>
         </div>
-        <div className="right-section">
-          <h1 className="greetings">
-            Ponderosa Hacks&nbsp;
-            <span className="year">
-              <span className="span1">2</span>
-              <span className="span2">0</span>
-              <span className="span3">2</span>
-              <span className="span4">3</span>!
-            </span>
-          </h1>
-          <p className="home-text">
-            "Unlock your potential, solve challenges, <br />
-            and leave your mark at our Hackathon event."
-          </p>
-          <h3 className="college-name">
-            <a href="https://enrollbasis.com/flagstaff/" target="_blank">
-              <span>
-                <IoLocationSharp />
-              </span>
-              BASIS Flagstaff
-            </a>
-          </h3>
-        </div>
+ 
       </div>
     </div>
   );

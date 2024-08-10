@@ -26,9 +26,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? "scrolled" : null}`}>
       <div className="navbar-container container">
         <input type="checkbox" name="" id="" />
-        <div className="logo">
-          <img src={hackathonLogo} alt="hack-the-future" className="img" />
-        </div>
+
         <div className="hamburger-lines">
           <span className="line line1"></span>
           <span className="line line2"></span>

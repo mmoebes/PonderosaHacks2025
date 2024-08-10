@@ -28,7 +28,7 @@ const AboutSection = () => {
             We will have volunteers and people knowledgable in the field to help you with your project. Come with a team 
             or find one at the event. 
           </p>
-          <p>Always remember everything begins with an IDEA</p>
+          <p>Everything begins with an IDEA</p>
         </div>
 
       </div>
