@@ -8,9 +8,9 @@ const Team = () => {
   return (
     <div className="team-container" id="Leadership">
 
-      <div className="section">
+      <div className="team-section">
 
-       <div className="left-section">
+       <div className="team-left-section">
           <div className="logo">
             <a href="/">
               <img src={Maleea} alt="Maleea"  />
@@ -18,7 +18,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="right-section">
+        <div className="team-right-section">
           <h4 className="profile">
           <span> Maleea Moebes is a high school senior at BASIS Flagstaff. She is pursuing 
             Computer Science in college and knows python, java, html, and dabbles in C. She 

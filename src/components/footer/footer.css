@@ -63,7 +63,7 @@
 }
 
 .address {
-  color: rgb(255, 255, 255);
+
   display: block;
   margin-bottom: 20px;
   font-style: normal;
@@ -85,7 +85,7 @@
   align-items: center;
   gap: 0.3rem;
   text-decoration: none;
-  color: #ffae00;
+
 }
 
 .location a h4 {
@@ -93,7 +93,6 @@
   font-weight: 400;
   transition: 0.3s;
   font-size: 1.5rem;
-  color: #fff;
   margin: 0;
 }
 
@@ -165,7 +164,6 @@
 }
 
 .copyContainer {
-
   background-color: #0a522a;
   text-align: center;
 }
@@ -178,7 +176,7 @@
   text-transform: uppercase;
   box-sizing: border-box;
   font-family: Oswald, sans-serif;
-  color: #efa506;
+
 }
 
 .copyContainer p span {
