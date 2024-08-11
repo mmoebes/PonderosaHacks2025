@@ -6,7 +6,6 @@ import { IoLocationSharp } from "react-icons/io5";
 import PonderosaHacksLogo from "/images/hackathon-logo.png";
 
 const Home = () => {
-  // const hackathonDate = new Date('2024-10-05');
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
@@ -52,19 +51,17 @@ const Home = () => {
   return (
     <div className="home-container" id="Home">
 
-
-
       <div className="section">
 
        <div className="left-section">
           <div className="logo">
-            <img src={PonderosaHacksLogo} alt="PonderosaHacks" className="img" />
+            <a href="/">
+              <img src={PonderosaHacksLogo} alt="PonderosaHacks"  />
+            </a>
           </div>
-
           <h1 className="greetings">
             Ponderosa
           </h1> 
-
           <h1 className="greetings">
             Hacks
           </h1>  
@@ -124,7 +121,7 @@ const Home = () => {
               className="btn btn-2 hover-slide-right discord"
             >
               <a href="https://discord.gg/q9vHfn9M" target="_blank">
-                Sponsor <BsDiscord />
+                Donate/Sponsor 
               </a>
             </button>
           </div>

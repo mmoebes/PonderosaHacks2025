@@ -1,5 +1,6 @@
 .about-section {
   padding-top: 3rem;
+  background: #fff;
 }
 .about-subsection {
   position: relative;
@@ -12,9 +13,26 @@
   padding-bottom: 4rem;
 }
 
+.heading-tag-line3 {
+  font-size: 48px;
+  font-style: normal;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #0a522a;
+}
+
+.heading-underline3 {
+  border: 2px solid #0a522a;
+  margin: 0.5rem auto 1.5rem;
+  width: 5%;
+}
 .about-left-section {
   flex: 1;
-  color: #dddbdb;
+  color: #595959;
 }
 
 .about-right-section {
@@ -33,7 +51,7 @@
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: #dddbdb;
+  color: #595959;
 }
 
 .hackathon-image {
@@ -91,7 +109,6 @@
 
   .about-heading {
     text-align: center;
-    color: #fff;
     font-size: 50px;
   }
 }
@@ -114,6 +131,7 @@
 
   .about-right-section {
     padding: 0;
+    padding-right: 0px;
   }
 
   .about-left-section p {
@@ -124,7 +142,6 @@
 
   .about-heading {
     text-align: center;
-    color: #fff;
     font-size: 40px;
   }
 }
@@ -157,7 +174,6 @@
 
   .about-heading {
     text-align: center;
-    color: #fff;
     font-size: 44px;
   }
 }
@@ -186,7 +202,6 @@
 
   .about-heading {
     /* text-align: center; */
-    color: #fff;
     font-size: 50px;
   }
 }

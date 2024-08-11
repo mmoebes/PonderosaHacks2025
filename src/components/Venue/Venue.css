@@ -1,3 +1,22 @@
+
+.heading-tag-line2 {
+  font-size: 48px;
+  font-style: normal;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+
+.heading-underline2 {
+  border: 2px solid #333333;
+  margin: 0.5rem auto 1.5rem;
+  width: 5%;
+}
+
 .venue-section {
   /* margin: 10px; */
   /* padding: 3rem; */
@@ -19,14 +38,15 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 2rem;
-  color: #a414e7;
+  color: #0a522a;
+  font-weight: bold;
 }
 
 .venue-subheading-left {
   width: 100%;
-  color: #ffae00;
   padding-top: 2rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .venue-location a {
@@ -87,12 +107,16 @@
 
   .venue-date {
     font-size: 2rem;
-    color: #ffae00;
+    color: #0a522a;
   }
   .venue-address {
-    font-size: 2rem;
-    color: #ffae00;
+    font-size: 5rem;
+    color: #0a522a;
     align-items: center;
+    font-weight: bold;
+    animation: fadeIn 1s;
+    margin-top: 0;
+    font-family: "Oswald", sans-serif;
   }
 }
 @media (min-width: 281px) and (max-width: 367px) {

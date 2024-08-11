@@ -2,26 +2,27 @@ import About from "./About/about";
 import Footer from "./footer/footer";
 import Home from "./Home/home";
 import Navbar from "./Navbar/Navbar";
-// import Judges from "./Judges/judges";
+//import Judges from "./Judges/judges";
 import Theme from "./ProblemStatement/Theme";
-import Prize from "./Prizes/Prize";
-import Scheduled from "./Schedule/Schedule";
-import Faq from "./Faq/Faq";
+import Team from "./Team/Team";
+//import Scheduled from "./Schedule/Schedule";
+//import Faq from "./Faq/Faq";
 import Venue from "./Venue/Venue";
-import Gallery from "./Gallery/Gallery";
-import Sponser from "./sponsored/sponsored";
+//import Gallery from "./Gallery/Gallery";
+import Sponsors from "./sponsored/sponsored";
+
 
 export {
   About,
   Footer,
   Home,
   Navbar,
-  //   Judges,
+  //Judges,
   Theme,
-  Prize,
-  Scheduled,
-  Faq,
+  Team,
+  //Scheduled,
+  //Faq,
   Venue,
-  Gallery,
-  Sponser,
+  //Gallery,
+  Sponsors,
 };

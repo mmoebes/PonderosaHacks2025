@@ -7,12 +7,12 @@ import {
   Navbar,
   // Judges,
   Theme,
-  // Prize,
+  Team,
   // Scheduled,
   // Faq,
   Venue,
   // Gallery,
-  // Sponser
+  Sponsors
 } from "./components";
 
 import { TopButton } from "./components/TopButton";
@@ -26,9 +26,9 @@ const App = () => {
       <Theme />
       <Venue />
       {/* <Scheduled /> */}
-      {/* <Prize /> */}
+      <Sponsors />
+      <Team />
       {/* <Judges/> */}
-      {/* <Sponser /> */}
       {/* <Faq /> */}
       {/* <Gallery /> */}
       <Footer />

@@ -19,7 +19,7 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  background-color: rgba(29, 104, 29, 0.8);
+  background-color: #0a522a;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -165,8 +165,8 @@
 }
 
 .copyContainer {
-  border-top: 1px solid rgba(29, 104, 29, 0.8);
-  background-color: rgba(29, 104, 29, 0.8);
+
+  background-color: #0a522a;
   text-align: center;
 }
 

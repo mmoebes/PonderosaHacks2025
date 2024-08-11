@@ -6,8 +6,8 @@ const Venue = () => {
   return (
     <div className="venue-section" id="Venue">
       <div className="venue-head-section">
-        <h1 className="heading-tag-line">Event Venue</h1>
-        <hr className="heading-underline" />
+        <h1 className="heading-tag-line2">Event Venue</h1>
+        <hr className="heading-underline2" />
       </div>
       <div className="venue-container">
         <div className="venue-subheading-right">

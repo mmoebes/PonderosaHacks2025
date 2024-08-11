@@ -1,3 +1,54 @@
+.sponsor-section {
+  padding-top: 3rem;
+  background: #fff;
+}
+.sponsor-subsection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* margin-left: 1rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+
+.sponsor-heading {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sponsor-left-section {
+  flex: 1;
+  color: #595959;
+}
+
+.sponsor-left-section p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #595959;
+}
+.heading-tag-line1 {
+  font-size: 48px;
+  font-style: normal;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #ffae00;
+}
+
+.heading-underline1 {
+  border: 2px solid #ffae00;
+  margin: 0.5rem auto 1.5rem;
+  width: 5%;
+}
 .slide-image {
   width: 200px;
   height: 200px;

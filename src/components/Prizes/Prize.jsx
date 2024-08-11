@@ -1,27 +1,32 @@
 import React from "react";
 import "./Prize.css";
-import { cardData } from "./data";
+import Maleea from "/images/MaleeaProfilePic.jpg";
+//import { cardData } from "./data";
 
-const Prize = () => {
+const Leadership = () => {
   return (
-    <div id="Prize">
-      <div className="dd_heading">
-        <h3 className="heading-tag-line">Prizes</h3>
-        <hr className="heading-underline" />
+    <div className="leadership-section">
+      <div className="leadership-head-section">
+        <h1 className="heading-tag-line">Leadership</h1>
+        < hr className="heading-underline" />
       </div>
-      <main className="page-content">
-        {cardData.map((card, index) => (
-          <div className="d_card" key={index}>
-            <div className="prize-content">
-              <h2 className="heading">{card.heading}</h2>
-              <p className="data-content">{card.content}</p>
-              <button className="prize-button">Click Here</button>
-            </div>
+      <div className="leadership-subsection" id="Leadership">
+        <div className="leadership-left-section">
+          <p>
+            Maleea Moebes is a high school senior at BASIS Flagstaff. She is pursuing Computer Science in college 
+            and knows python, java, html, and dabbles in C. She is looking forward to helping with all your ambitious 
+            Hackathon projects.
+          </p>
+        
+          <div className="profile-pic">
+            <a href="/">
+              <img src={Maleea} alt="Maleea Moebes"  />
+            </a>
           </div>
-        ))}
-      </main>
-    </div>
+        </div>
+      </div>
+  </div>
   );
 };
 
-export default Prize;
+export default Leadership;

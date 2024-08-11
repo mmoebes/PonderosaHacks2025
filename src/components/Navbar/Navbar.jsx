@@ -42,10 +42,10 @@ const Navbar = () => {
             <a href="#Venue">Venue</a>
           </li>          
           <li className="borderXwidth">
-            <a href="#Venue">Sponsors</a>
+            <a href="#Sponsors">Donate/Sponsor</a>
           </li>
           <li className="borderXwidth">
-            <a href="#Venue">Leadership</a>
+            <a href="#Leadership">Leadership</a>
           </li>
           <li className="borderXwidth">
             <a href="#Footer">Contact</a>

@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background: #060404 !important;
+  background: #b3b3b3 !important;
   overflow-x: hidden;
 }
 
@@ -24,4 +24,5 @@ body {
   text-align: center;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  padding-top: .5rem;
 }
