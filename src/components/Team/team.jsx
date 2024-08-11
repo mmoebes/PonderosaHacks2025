@@ -7,7 +7,8 @@ const Team = () => {
 
   return (
     <div className="team-container" id="Leadership">
-
+      <h1 className="heading-tag-line">Leadership</h1>
+      < hr className="heading-underline" />
       <div className="team-section">
 
        <div className="team-left-section">
