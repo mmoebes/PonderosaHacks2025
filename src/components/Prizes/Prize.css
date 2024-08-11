@@ -1,45 +1,489 @@
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
-.leadership-section {
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
   background: #0a522a;
-  padding-top: 1%;
-}
-.leadership-subsection {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.leadership-heading {
-  color: #000000;
-  font-size: 20px;
-  margin-bottom: 10px;
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  text-transform: uppercase;
+  position: relative;
+  /* top: -10%; */
+}
+
+.hackathon-title {
+  font-size: 5rem;
+  color: #fff;
   font-weight: bold;
-  position: flex;
-  flex-direction: row;
+  animation: fadeIn 1s;
+  margin-top: 0;
+  font-family: "Oswald", sans-serif;
 }
 
-.leadership-left-section {
-  color: #b3b1b1;
-
+.hackathon-title span {
+  font-size: 4rem;
+  font-family: "Londrina Outline", cursive;
+  text-shadow: 0 0 5px #02f2fa, 0 0 10px #02f2fa, 0 0 15px #02f2fa,
+    0 0 20px #02f2fa, 0 0 25px #02f2fa, 0 0 30px #02f2fa;
 }
 
-.leadership-left-section p {
-  color: #b3b1b1;
-}
-
-.leadership-right-section {
-  display: inline;
+.team-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+  position: relative;
 }
-.logo img {
 
-  justify-content: center;
+.team-left-section {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-right-section {
+  text-align: left;
+  width: 95%;
+  padding-right: 5%;
+}
+
+.profile {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #efa506;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+h1 {
+  color: #333;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: fadeIn 1s;
+}
+
+.hackerspace {
+  color: #ffae00;
+  font-size: 3rem;
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+h2 {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  animation: fadeIn 1s;
+}
+
+h3 {
+  color: #555;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  animation: fadeIn 1s;
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+}
+
+.greetings {
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  color: #ffae00;
+  line-height: 90px;
+  margin: 0;
   align-items: center;
+  letter-spacing: 2px;
+}
+
+.home-text {
+  color: #53e767;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  position: relative;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: auto;
+  height: 40px;
+  cursor: pointer;
+  margin: 15px;
+  min-width: 150px;
+  transition: 0.5s;
+  border-radius: 5px;
+  font-weight: 600 !important;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.register-btn a {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 0px;
+  text-decoration: none;
+  color: #000;
+}
+
+.register-btn:hover a {
+  color: #ffae00;
+}
+
+.register-btn {
+  background-color: #9e52e9 !important;
+  color: #000 !important;
+}
+
+.register-btn:hover {
+  color: #ffae00 !important;
+  background-color: transparent !important;
+  border-color: #ffae00 !important;
+}
+
+.register {
+  transform: rotate(-45deg);
+}
+
+.logo img {
+  width: 30%;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  display: inline;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Media queries for responsive design */
+
+/* Screen size up to 480px */
+@media (max-width: 480px) {
+  .home-container {
+    overflow: hidden;
+    padding-top: 20%;
+    /* margin-bottom: -75%; */
+    padding-bottom: 10%;
+    gap: 2rem;
+  }
+
+  .home-container {
+    flex-direction: column;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title-container {
+    top: -10%;
+    margin-top: 8%;
+  }
+
+  .hackathon-title {
+    font-size: 2rem;
+  }
+
+  .date b {
+    font-size: 6rem;
+  }
+
+  .hackathon-title span {
+    font-size: 2.5rem;
+  }
+
+  .left-section {
+    position: relative;
+    top: -32%;
+  }
+
+  .right-section {
+    top: -18%;
+    padding-right: 0%;
+
+  }
+
+  .greetings {
+    font-size: 4rem;
+    position: relative;
+    line-height: 56px;
+  }
+
+  .hackerspace {
+    font-size: 2rem;
+    /* left: 29%; */
+    position: relative;
+  }
+
+  .home-text {
+    font-size: 1rem;
+    justify-content: center;
+  }
+
+  .college-name a {
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .btn {
+    display: flex;
+    margin: 0px;
+    min-width: 0px;
+  }
+  .register-btn {
+    margin-right: 0;
+  }
+
+  .register-btn a {
+    gap: 0px;
+  }
+  .logo img {
+    width: 30%;
+      position: relative;
+      text-align: center;
+      justify-content: center;
+  }
+}
+
+/* Screen size between 481px and 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .home-container {
+    flex-direction: column;
+    padding-top: 20%;
+    /* margin-bottom: -50%; */
+    padding-bottom: 10%;
+    gap: 0rem;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title-container {
+    top: -10%;
+  }
+
+  .hackathon-title {
+    font-size: 3rem;
+  }
+
+  .hackathon-title span {
+    font-size: 2.5rem;
+  }
+
+  .left-section {
+    top: -18%;
+  }
+
+  .right-section {
+    position: relative;
+    top: -32%;
+    padding-right: 0%;
+  }
+
+  .greetings {
+    font-size: 4rem;
+    width: 50%;
+    left: 27%;
+    position: relative;
+  }
+
+  .hackerspace {
+    font-size: 2rem;
+    /* left: 29%; */
+    position: relative;
+    margin-bottom: -5px;
+  }
+
+  .home-text {
+    width: 50%;
+    left: 29%;
+    position: relative;
+  }
+
+  .college-name a {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .logo img {
+    width: 180px;
+    align-items: center;
+  }
+}
+
+/* Screen size between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-container {
+    flex-direction: column;
+    padding-top: 10%;
+    /* margin-bottom: -25%; */
+    padding-bottom: 10%;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title-container {
+    top: -10%;
+  }
+
+  .left-section {
+    top: -18%;
+  }
+
+  .right-section {
+    position: relative;
+    top: -32%;
+    padding-right: 0%;
+  }
+
+  .greetings {
+    font-size: 4rem;
+    position: relative;
+    line-height: 56px;
+  }
+
+  .hackerspace {
+    font-size: 2rem;
+    /* left: 20%; */
+    position: relative;
+    margin-bottom: -5px;
+  }
+
+  .home-text {
+    justify-content: center;
+  }
+
+  .college-name a {
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/* Screen size between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .left-section,
+  .right-section {
+    flex-basis: 100%;
+  }
+
+  .home-container {
+    height: 100%;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title-container {
+    top: -20%;
+  }
+
+  .left-section {
+    top: -20%;
+  }
+
+  .right-section {
+    position: relative;
+    /* top: -12%; */
+    padding-right: 0%;
+  }
+
+  .greetings {
+    font-size: 6rem;
+    position: relative;
+    line-height: 76px;
+  }
+
+  .hackerspace {
+    font-size: 3rem;
+    /* left: 20%; */
+    position: relative;
+    margin-bottom: -5px;
+  }
+
+  .home-text {
+    font-size: 1.6rem;
+    position: relative;
+    text-align: center;
+  }
+
+  .college-name a {
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/* Screen size 1200px and above */
+@media (min-width: 1200px) {
+  /* Keep the default styles */
+  .home-container {
+    overflow: hidden;
+  }
+  
+
+
 }

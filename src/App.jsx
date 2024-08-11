@@ -7,7 +7,7 @@ import {
   Navbar,
   // Judges,
   Theme,
-  Team,
+  Prize,
   // Scheduled,
   // Faq,
   Venue,
@@ -27,7 +27,7 @@ const App = () => {
       <Venue />
       {/* <Scheduled /> */}
       <Sponsors />
-      <Team />
+      <Prize />
       {/* <Judges/> */}
       {/* <Faq /> */}
       {/* <Gallery /> */}

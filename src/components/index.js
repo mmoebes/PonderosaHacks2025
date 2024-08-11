@@ -4,7 +4,7 @@ import Home from "./Home/home";
 import Navbar from "./Navbar/Navbar";
 //import Judges from "./Judges/judges";
 import Theme from "./ProblemStatement/Theme";
-import Team from "./Team/Team";
+import Prize from "./Prizes/Prize";
 //import Scheduled from "./Schedule/Schedule";
 //import Faq from "./Faq/Faq";
 import Venue from "./Venue/Venue";
@@ -19,7 +19,7 @@ export {
   Navbar,
   //Judges,
   Theme,
-  Team,
+  Prize,
   //Scheduled,
   //Faq,
   Venue,
