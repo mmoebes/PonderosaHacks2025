@@ -3,7 +3,7 @@
     "frontImage": "https://main--poetic-cat-e44d4c.netlify.app/images/hackathon-logo.png",
     "frontText": "How much does it cost?",
     "backText": [
-      "Nothing, it’s totally free.",
+      "Nothing, it’s totally free!",
       "Registration and attendance are 100% free, with meals, drinks, swag, & workshops included."
     ]
   },
@@ -12,7 +12,7 @@
     "frontText": "Who can participate?",
     "backText": [
       "Any current high school student, grades 9–12. ",
-      "If you’re under/over that age, contact us & we’ll see what we can do."
+      "If you’re under/over that age, pleasae contact us & we’ll see what we can do."
     ]
   },
   {
@@ -28,43 +28,43 @@
     "frontText": "What if I already know how to code?",
     "backText": [
       "All skill levels are welcome.",
-      "We welcome experts - let us know if you'd like to also volunteer to host a workshop."
+      "If you are an expert, let us know if you'd like to also volunteer to host a workshop. You will still have chances to win cool prizes."
     ]
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
     "frontText": "Do I need a team?",
     "backText": [
-      "Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4—find some new friends, bring yours, or work alone."
+      "Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4 people. Find some new friends, bring yours, or work alone."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
+    "frontImage": "https://main--poetic-cat-e44d4c.netlify.app/images/hackathon-logo.png",
     "frontText": "What can I make?",
     "backText": [
-      "Anything! A website, app, game, hardware, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, & utility."
+      "Anything! A website, app, game, hardware, you name it. We will have different categories to submit for prizes. Judges will rate projects on creativity, technical skill demonstrated, polish, & utility."
     ]
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
     "frontText": "What should I bring?",
     "backText": [
-      "Student ID, computer, chargers, anything for your hack (hardware?)."
+      "Student ID, computer, chargers, anything for your hack (hardware?). We will have some materials to use for prototypes (like arts, crafts, and building supplies) but feel free to bring your own."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
+    "frontImage": "https://main--poetic-cat-e44d4c.netlify.app/images/hackathon-logo.png",
     "frontText": "Who runs this? Is it supervised?",
     "backText": [
-      "We’re independently-organized by high schoolers, sponsored via an intl. non-profit called Hack Club. The event is fully supervised by teachers and other volunteer adults."
+      "We’re independently-organized by high schoolers, sponsored via an international non-profit called Hack Club. The event is fully supervised by teachers and other volunteer adults."
     ]
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontText": "I'm ready to signup! How do I register?",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "Registration opens on September 1st and a discord channel will be created to answer questions and virtually meet other hackathon attendees.",
+      "The Hackathon theme and challenge categories for prizes will also be annouced at that time, so stay tuned for details."
     ]
   }
 ]

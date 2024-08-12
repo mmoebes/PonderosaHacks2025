@@ -12,11 +12,11 @@ const Theme = () => {
 
   return (
     <div>
-      <div className="about-head-section">
+      <div className="about-head-section" id="FAQs">
         <h1 className="heading-tag-line">FAQs</h1>
         <hr className="heading-underline" />
       </div>
-      <div className="problem-content" id="Theme">
+      <div className="problem-content">
         {cards.map((card, index) => (
           <a
             key={index}
@@ -41,6 +41,7 @@ const Theme = () => {
           </a>
         ))}
       </div>
+      < hr className="divider-line2" />
     </div>
   );
 };

@@ -16,11 +16,11 @@ const AboutSection = () => {
           </h2>
           <p>
             A hackathon is a collaborative event where people come together and "hack" solutions to real-world problems.
-            For example: world hunger, water polution, or accessibility problems. We are most likely not going 
+            For example: world hunger, water polution, or accessibility barriers. We are most likely not going 
             to find THE solution for a problem that has stricken the world for ages, but we can workshop
-            innovative ideas that may one day contribute to real solutions. With hours of time to brainstorm, create, and model, 
+            innovative ideas that may contribute to actual solutions. With hours of time to brainstorm, create, and model, 
             you will present your project to a panel 
-            of judges and recieve awards for a chance to win cool prizes. During the day, we will provide food and snacks, 
+            of judges for a chance to win cool prizes. During the day, we will provide food, snacks,
             activities to earn more prizes, skill workshops to help with your project, and free goodies from our sponsors. 
           </p>
           <p>

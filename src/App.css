@@ -26,3 +26,9 @@ body {
   font-family: "Poppins", sans-serif;
   padding-top: .3rem;
 }
+
+@media screen and (max-width: 500px) {
+  .heading-tag-line {
+    font-size: 40px;
+  }
+}

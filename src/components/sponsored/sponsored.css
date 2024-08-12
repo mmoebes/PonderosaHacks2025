@@ -75,3 +75,9 @@
     transform: translatex(-1000%);
   }
 }
+
+@media screen and (max-width: 500px) {
+  .heading-tag-line1 {
+    font-size: 40px;
+  }
+}

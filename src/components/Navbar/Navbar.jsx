@@ -36,7 +36,7 @@ const Navbar = () => {
             <a href="#About">About</a>
           </li>
           <li className="borderXwidth">
-            <a href="#Theme">FAQs</a>
+            <a href="#FAQs">FAQs</a>
           </li>
           <li className="borderXwidth">
             <a href="#Venue">Venue</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <a href="#Leadership">Leadership</a>
           </li>
           <li className="borderXwidth">
-            <a href="#Footer">Contact</a>
+            <a href="mailto:ponderosa-hacks@gmail.com?body=My custom mail body">Contact</a>
           </li>
         </ul>
       </div>

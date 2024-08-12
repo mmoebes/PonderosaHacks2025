@@ -26,7 +26,7 @@ const Prize = () => {
             is looking forward to helping with all your ambitious Hackathon projects. </span>
           </h4>
 
-          <div className="button">
+          {/*<div className="button">
             <button
               type="button"
               className="btn btn-2 hover-slide-right register-btn"
@@ -43,10 +43,12 @@ const Prize = () => {
                 Donate/Sponsor 
               </a>
             </button>
-          </div>
+          </div>*/}
         </div>
  
       </div>
+      <br />
+      < hr className="divider-line" />
     </div>
   );
 };

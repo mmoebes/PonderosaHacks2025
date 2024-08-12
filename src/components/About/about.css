@@ -118,6 +118,10 @@
     flex-direction: column;
   }
 
+  .heading-tag-line3 {
+      font-size: 40px;
+  }
+
   .hackathon-image {
     max-width: 353px;
     height: 361px;

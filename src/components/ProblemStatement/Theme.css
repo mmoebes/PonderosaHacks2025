@@ -1,3 +1,13 @@
+.about-head-section {
+  padding-top: 2%;
+}
+
+.divider-line2 {
+  border: 1px solid #ffffff;
+  margin: 0.5rem auto 1.5rem;
+  width: 80%;
+}
+
 .problem-content {
   display: flex;
   margin: 0 auto;
@@ -5,8 +15,8 @@
   align-items: center;
   flex-wrap: wrap;
   max-width: 1000px;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .heading {
@@ -84,7 +94,7 @@
 .front {
   background-size: cover;
   padding: 2rem;
-  font-size: 1.618rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: #000000;
   overflow: hidden;
@@ -99,8 +109,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #1a9be6, #1a57e6);
-  opacity: 0.25;
+  background: linear-gradient(135deg, #0a522a, #efa506);
+  opacity: 0.90;
   z-index: -1;
 }
 
