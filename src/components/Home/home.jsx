@@ -112,15 +112,15 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right register-btn"
             >
-              <a href="https://hackthefuture.devfolio.co/" target="_blank">
-                Register Now <FiArrowUpRight />
+              <a href="#FAQs">
+                Registration opens 9/1<FiArrowUpRight />
               </a>
             </button>
             <button
               type="button"
               className="btn btn-2 hover-slide-right discord"
             >
-              <a href="https://discord.gg/q9vHfn9M" target="_blank">
+              <a href="#Sponsors">
                 Donate/Sponsor 
               </a>
             </button>
