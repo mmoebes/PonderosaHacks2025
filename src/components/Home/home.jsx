@@ -113,7 +113,7 @@ const Home = () => {
               className="btn btn-2 hover-slide-right register-btn"
             >
               <a href="#FAQs">
-                Registration opens 9/1<FiArrowUpRight />
+                Register on 9/1
               </a>
             </button>
             <button
