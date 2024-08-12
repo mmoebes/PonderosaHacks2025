@@ -22,7 +22,7 @@ const Venue = () => {
         <div className="venue-subsection">
           <div className="venue-subheading-left">
             <h3 className="venue-date">October 5, 2024</h3>
-            <h4 className="venue-date">7AM - 7PM</h4>
+            <h4 className="venue-date">8AM - 6:30PM</h4>
             <h4 className="venue-date">. . .</h4>
             <h3 className="venue-address">
               BASIS Flagstaff School
