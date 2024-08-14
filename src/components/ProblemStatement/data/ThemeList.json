@@ -11,7 +11,7 @@
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
     "frontText": "Who can participate?",
     "backText": [
-      "Any current high school student, grades 9 – 12. From Flagstaff or from anywhere around the world.",
+      "Any current high school student, grades 9 – 12, from Flagstaff or anywhere around the world.",
       "If you’re in middle school and are interested in attending, please contact us & we’ll see what we can do."
     ]
   },
@@ -63,7 +63,7 @@
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
     "frontText": "I'm ready to signup! How do I register?",
     "backText": [
-      "Registration opens on September 1st. You will join a discord channel to ask questions and get to know other hackathon attendees (virtually).",
+      "Registration opens on September 1st. You will join a Discord channel to ask questions and get to know other hackathon attendees (virtually).",
       "The Hackathon theme and challenge categories for prizes will be annouced at the event."
     ]
   }

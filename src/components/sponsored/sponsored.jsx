@@ -31,7 +31,7 @@ const Sponsors = () => {
           nationally on hackathons.hackclub.com and devpost.com.
         </p>
         <h2 className="sponsor-heading">
-        Contact us at <a href="mailto:ponderosa-hacks@gmail.com?body=My custom mail body">ponderosa-hacks@gmail.com</a>
+        Contact us at <a href="mailto:ponderosa-hacks@gmail.com?body=My custom mail body">ponderosa.hacks@gmail.com</a>
         </h2>
       </div>
       </div>
