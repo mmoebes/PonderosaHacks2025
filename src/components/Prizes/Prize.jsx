@@ -21,8 +21,8 @@ const Prize = () => {
 
         <div className="team-right-section">
           <h4 className="profile">
-          <span> Maleea Moebes is a high school senior at BASIS Flagstaff. She is pursuing 
-            Computer Science in college and knows python, java, html, and dabbles in C. She 
+          <span> Maleea Moebes is a high school senior at BASIS Flagstaff. She will pursue
+            Computer Science in college and knows Python and Java and dabbles in C and HTML. She 
             is looking forward to helping with all your ambitious Hackathon projects. </span>
           </h4>
 

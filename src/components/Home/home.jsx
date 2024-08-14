@@ -67,7 +67,7 @@ const Home = () => {
           </h1>  
 
           <p className="home-text">
-                Unlock your potential, solve challenges
+                Unlock your potential, innovate solutions
           </p>
 
           <h3 className="college-name">
