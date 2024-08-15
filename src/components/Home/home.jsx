@@ -95,7 +95,7 @@ const Home = () => {
               className="btn btn-2 hover-slide-right register-btn"
             >
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScM5wHHmPTgR4WvTNntHesTiRIf1r-5AhfV6uhxeNfPhJin2Q/viewform?usp=sf_link" target="_blank">
-                Register Now <FiArrowUpRight />
+                Register Now<FiArrowUpRight />
               </a>
             </button>
             <button

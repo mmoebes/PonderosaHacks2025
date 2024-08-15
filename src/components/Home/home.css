@@ -157,18 +157,18 @@ h3 {
 .button {
   display: flex;
   justify-content: center;
-  gap: 1%;
+  gap: 2%;
   position: relative;
   text-align: center;
 }
 
 .btn {
   display: block;
-  width: auto;
+
   height: 40px;
   cursor: pointer;
   margin: 15px;
-  min-width: 150px;
+  width: 150px;
   transition: 0.5s;
   border-radius: 5px;
   font-weight: 600 !important;
@@ -179,10 +179,10 @@ h3 {
 }
 
 .register-btn a {
-  display: flex;
+
   justify-items: center;
   align-items: center;
-  gap: 0px;
+  gap: 1px;
   text-decoration: none;
   color: #000;
 }
@@ -331,10 +331,11 @@ h3 {
   .btn {
     display: flex;
     margin: 0px;
-    min-width: 0px;
+    min-width: 20px;
   }
   .register-btn {
     margin-right: 0;
+    min-width: 120px;
   }
 
   .register-btn a {
