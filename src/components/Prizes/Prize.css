@@ -107,7 +107,7 @@ h3 {
   animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
-.button {
+.button2 {
   display: flex;
   justify-content: center;
   gap: 1%;
@@ -115,7 +115,7 @@ h3 {
   text-align: center;
 }
 
-.btn {
+.btn2 {
   display: block;
   width: auto;
   height: 40px;
@@ -131,7 +131,7 @@ h3 {
   color: #000;
 }
 
-.register-btn a {
+.register-btn2 a {
   display: flex;
   justify-items: center;
   align-items: center;
@@ -140,22 +140,22 @@ h3 {
   color: #000;
 }
 
-.register-btn:hover a {
+.register-btn2:hover a {
   color: #ffae00;
 }
 
-.register-btn {
+.register-btn2 {
   background-color: #9e52e9 !important;
   color: #000 !important;
 }
 
-.register-btn:hover {
+.register-btn2:hover {
   color: #ffae00 !important;
   background-color: transparent !important;
   border-color: #ffae00 !important;
 }
 
-.register {
+.register2 {
   transform: rotate(-45deg);
 }
 

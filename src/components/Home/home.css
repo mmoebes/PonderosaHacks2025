@@ -12,7 +12,6 @@
   background: #fff;
   padding-top: 0%;
   padding-bottom: 3%;
-  
 }
 
 
@@ -189,18 +188,18 @@ h3 {
 }
 
 .register-btn:hover a {
-  color: #ffae00;
+  color: #d377e6;
 }
 
 .register-btn {
-  background-color: #9e52e9 !important;
+  background-color: #d377e6 !important;
   color: #000 !important;
 }
 
 .register-btn:hover {
-  color: #ffae00 !important;
+  color: #d377e6 !important;
   background-color: transparent !important;
-  border-color: #ffae00 !important;
+  border-color: #d377e6 !important;
 }
 
 .register {
@@ -217,12 +216,12 @@ h3 {
 }
 
 .discord:hover {
-  border: 2px solid #9e52e9 !important;
+  border: 2px solid #53e767 !important;
   background-color: transparent !important;
 }
 
 .discord:hover > a {
-  color: #9e52e9;
+  color: #53e767;
 }
 
 .logo img {

@@ -16,7 +16,7 @@ const AboutSection = () => {
 
         <div className="about-left-section">
           <h2 className="about-heading">
-          What Is A Hackathon? 
+          What is a Hackathon? 
           </h2>
           <p>
           A hackathon is a collaborative event where people come together and "hack" solutions to real-world problems 

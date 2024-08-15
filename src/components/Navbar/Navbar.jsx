@@ -47,7 +47,7 @@ const Navbar = () => {
             <a href="#Leadership">Leadership</a>
           </li>
           <li className="borderXwidth">
-            <a href="mailto:ponderosa-hacks@gmail.com?body=My custom mail body">Contact</a>
+            <a href="mailto:ponderosa-hacks@gmail.com?">Contact</a>
           </li>
         </ul>
       </div>
