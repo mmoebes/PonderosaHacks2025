@@ -1,7 +1,14 @@
 .about-section {
-  padding-top: 3rem;
-  background: #fff;
+  padding-top: 0rem;
+
 }
+
+.about-head-section {
+  padding-top: 0.4rem;
+  padding-bottom: .4rem;
+  background-color: #efa506;
+}
+
 .about-subsection {
   position: relative;
   display: flex;
@@ -11,28 +18,30 @@
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 4rem;
+  
 }
 
 .heading-tag-line3 {
   font-size: 48px;
   font-style: normal;
-  padding-bottom: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   margin-bottom: 0;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #0a522a;
+  color: #fff;
 }
 
 .heading-underline3 {
-  border: 2px solid #0a522a;
+  border: 2px solid #fff;
   margin: 0.5rem auto 1.5rem;
   width: 5%;
 }
 .about-left-section {
   flex: 1;
-  color: #595959;
+  color: #0000;
 }
 
 .about-right-section {
@@ -40,18 +49,25 @@
   padding-left: 20px;
 }
 
+.about-heading2 {
+  color: #080808;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
 .about-heading {
   color: #efa506;
   font-size: 40px;
   margin-bottom: 10px;
   font-weight: 500;
+
 }
 
 .about-left-section p {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: #595959;
+  color: #eceaea;
 }
 
 .hackathon-image {
@@ -104,7 +120,7 @@
   .about-left-section p {
     font-size: 20px;
     display: flex;
-    text-align: center;
+    text-align: left;
   }
 
   .about-heading {
@@ -141,7 +157,7 @@
   .about-left-section p {
     font-size: 15px;
     display: flex;
-    text-align: center;
+    text-align: left;
   }
 
   .about-heading {
@@ -173,7 +189,7 @@
   .about-left-section p {
     font-size: 17px;
     display: flex;
-    text-align: center;
+    text-align: left;
   }
 
   .about-heading {

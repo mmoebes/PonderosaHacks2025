@@ -1,4 +1,4 @@
-.about-head-section {
+.faq-head-section {
   padding-top: 2%;
 }
 
@@ -109,8 +109,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #53e767;
-  opacity: 0.6;
+  background: #fff;
+  opacity: 0.95;
   z-index: -1;
 
 }

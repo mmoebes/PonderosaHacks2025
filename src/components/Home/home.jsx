@@ -3,7 +3,7 @@ import "./home.css";
 import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
-import PonderosaHacksLogo from "/images/hackathon-logo.png";
+import PonderosaHacksLogo from "/images/ponderosahackslogo3.png";
 
 const Home = () => {
 
@@ -50,43 +50,26 @@ const Home = () => {
 
   return (
     <div className="home-container" id="Home">
-
-      <div className="section">
-
-       <div className="left-section">
           <div className="logo">
             <a href="/">
               <img src={PonderosaHacksLogo} alt="PonderosaHacks"  />
             </a>
           </div>
           <h1 className="greetings">
-            Ponderosa
+          1st ever High School Hackathon in Flagstaff
           </h1> 
-          <h1 className="greetings">
-            Hacks
-          </h1>  
-
-          <p className="home-text">
-                Unlock your potential, innovate solutions
-          </p>
-
+          <h2 className="date">
+          October 5, 2024 @ 8AM - 6:30PM
+          </h2> 
           <h3 className="college-name">
             <a href="https://enrollbasis.com/flagstaff/" target="_blank">
               <span>
                 <IoLocationSharp />
               </span>
               BASIS Flagstaff
-              <br />
-              
+
             </a>
           </h3>
-        </div>
-
-        <div className="right-section">
-          <h4 className="date">
-          <span> October 5, 2024 </span>
-          </h4>
-
           <div className="timer">
             <div className="timer-item">
               <div className="timer-item-value">{timeLeft.days}</div>
@@ -105,29 +88,6 @@ const Home = () => {
               <div className="timer-item-label">Seconds</div>
             </div>
           </div>
-
-
-          <div className="button">
-            <button
-              type="button"
-              className="btn btn-2 hover-slide-right register-btn"
-            >
-              <a href="#FAQs">
-                Register on 9/1
-              </a>
-            </button>
-            <button
-              type="button"
-              className="btn btn-2 hover-slide-right discord"
-            >
-              <a href="#Sponsors">
-                Donate/Sponsor 
-              </a>
-            </button>
-          </div>
-        </div>
- 
-      </div>
     </div>
   );
 };

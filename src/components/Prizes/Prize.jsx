@@ -48,7 +48,7 @@ const Prize = () => {
  
       </div>
       <br />
-      < hr className="divider-line" />
+
     </div>
   );
 };

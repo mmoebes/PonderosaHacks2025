@@ -6,13 +6,20 @@
 }
 
 .faq__container {
-  max-width: 1140px;
+  background: #6b6b6d;
+    max-width: 1140px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 30px;
   border-radius: 10px;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
   padding-bottom: 4rem;
+}
+
+.faq-head-section {
+  background: #6b6b6d;
+    max-width: 1140px;
+
 }
 
 .Faq__main {

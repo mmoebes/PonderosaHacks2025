@@ -12,7 +12,7 @@ const Theme = () => {
 
   return (
     <div>
-      <div className="about-head-section" id="FAQs">
+      <div className="faq-head-section" id="FAQs">
         <h1 className="heading-tag-line">FAQs</h1>
         <hr className="heading-underline" />
       </div>

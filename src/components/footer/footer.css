@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   background-size: cover;
-  color: #fff;
   text-align: left;
   justify-content: left;
   width: 100%;
@@ -19,8 +18,7 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  background-color: #0a522a;
-  padding-top: 0px;
+  padding-top: 4px;
   padding-bottom: 0px;
 }
 
@@ -63,7 +61,7 @@
 }
 
 .address {
-
+  color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 20px;
   font-style: normal;
@@ -85,7 +83,7 @@
   align-items: center;
   gap: 0.3rem;
   text-decoration: none;
-
+  color: #ffae00;
 }
 
 .location a h4 {
@@ -164,14 +162,13 @@
 }
 
 .copyContainer {
-  background-color: #0a522a;
   text-align: center;
 }
 
 .copyContainer p {
-  color: inherit;
+  color: #ffae00;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.08rem;
   text-transform: uppercase;
   box-sizing: border-box;

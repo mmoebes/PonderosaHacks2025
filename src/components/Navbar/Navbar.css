@@ -13,7 +13,7 @@
 .navbar {
   position: relative;
   width: 100%;
-  background: #0a522a;
+  background: #000000;
   color: #fff;
   z-index: 100;
 }
@@ -21,9 +21,9 @@
 .navbar-container {
   display: flex;
   justify-content: right;
-  height: 54px;
+  height: 40px;
   align-items: right;
-  gap: 1rem;
+  gap: 0rem;
 }
 
 .menu-items {
@@ -54,6 +54,34 @@
 
 .navbar a:hover {
   color: #ffae00;
+}
+
+
+.borderXwidth a:before,
+.borderXwidth a:after {
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 2px;
+  content: "";
+  background: #5a5a5a;
+  transition: all 0.3s;
+}
+
+.borderXwidth a:before {
+  left: 0px;
+  top: 0px;
+}
+
+.borderXwidth a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+.borderXwidth a:hover:before,
+.borderXwidth a:hover:after {
+  opacity: 1;
+  width: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

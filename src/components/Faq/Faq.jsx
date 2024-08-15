@@ -17,7 +17,7 @@ function Accordion() {
   return (
     <React.Fragment>
       <div className="faq__container">
-        <div className="about-head-section">
+        <div className="faq-head-section">
           <h1 className="heading-tag-line">FAQs</h1>
           <hr className="heading-underline" />
         </div>

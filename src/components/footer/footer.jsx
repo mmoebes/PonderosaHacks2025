@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import hackathonLogo from "/images/smallhackathon-logo.png";
+import hackathonLogo from "/images/ponderosahackslogo2.png";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 
@@ -41,8 +41,7 @@ const footer = () => {
       </div>
       <div className="copyContainer">
         <p>
-          <span>©</span> {currentYear} PONDEROSA HACKS<span> </span>
-          {/*<span>©</span> {currentYear} PONDEROSA HACKS.<span> Fiscally sponsored by The Hack Foundation. Nonprofit EIN: 81-2908499.</span>*/}
+          <span>©</span> {currentYear} PONDEROSA HACKS.<span> Fiscally sponsored by The Hack Foundation. Nonprofit EIN: 81-2908499.</span>
         </p>
       </div>
     </footer>
