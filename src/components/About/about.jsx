@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="about-head-section">
        {/*} <h1 className="heading-tag-line3">About</h1>
         <hr className="heading-underline3" />*/}
-        <h1 className="about-heading2">Win PRIZES + get FREE stuff: food, workshops, t-shirt, stickers, swag!</h1>
+        <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
       </div>
       <h1 className="heading-tag-line3">About</h1>
       <hr className="heading-underline3" />

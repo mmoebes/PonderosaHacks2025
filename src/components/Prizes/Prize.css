@@ -159,7 +159,7 @@ h3 {
   transform: rotate(-45deg);
 }
 
-.logo img {
+.leader1 img {
   width: 30%;
   position: relative;
   text-align: center;
@@ -269,7 +269,7 @@ h3 {
   .register-btn a {
     gap: 0px;
   }
-  .logo img {
+  .leader1 img {
     width: 30%;
       position: relative;
       text-align: center;
@@ -338,7 +338,7 @@ h3 {
     justify-content: center;
     display: flex;
   }
-  .logo img {
+  .leader1 img {
     width: 180px;
     align-items: center;
   }

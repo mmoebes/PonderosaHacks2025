@@ -12,7 +12,7 @@ const Prize = () => {
       <div className="team-section">
 
        <div className="team-left-section">
-          <div className="logo">
+          <div className="leader1">
             <a href="/">
               <img src={Maleea} alt="Maleea"  />
             </a>
