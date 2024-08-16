@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import hackathonLogo from "/images/ponderosahackslogo2.png";
+import hackathonLogo from "/images/hackslogo3.png";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 

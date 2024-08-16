@@ -42,7 +42,7 @@
     "frontImage": "https://main--poetic-cat-e44d4c.netlify.app/images/hackathon-logo.png",
     "frontText": "What can I make?",
     "backText": [
-      "Anything! A website, app, game, model, you name it. We will have different categories to submit for prizes. Judges will rate projects on creativity, technical skill demonstrated, polish, & utility."
+      "Anything! A website, app, game, model, you name it. It does NOT need to invole coding. We will have different categories to submit for prizes. Judges will rate projects on creativity, technical skill demonstrated, polish, & utility."
     ]
   },
   {
@@ -61,10 +61,9 @@
   },
   {
     "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "I'm ready to signup! How do I register?",
+    "frontText": "When will the Hackathon challenge categories be announced?",
     "backText": [
-      "Registration opens on September 1st. You will join a Discord channel to ask questions and get to know other hackathon attendees (virtually).",
-      "The Hackathon theme and challenge categories for prizes will be annouced at the event."
+      "The Hackathon theme and challenge categories for prizes will be annouced at the event. There will be multiple categories and lots of opportunities to win prizes!"
     ]
   }
 ]

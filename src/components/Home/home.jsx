@@ -3,7 +3,7 @@ import "./home.css";
 import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
-import PonderosaHacksLogo from "/images/ponderosahackslogo3.png";
+import PonderosaHacksLogo from "/images/hackslogo.png";
 
 const Home = () => {
 
