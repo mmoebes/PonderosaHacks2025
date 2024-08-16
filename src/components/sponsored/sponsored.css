@@ -24,6 +24,9 @@
 .sponsor-left-section {
   flex: 1;
   color: #595959;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sponsor-left-section p {

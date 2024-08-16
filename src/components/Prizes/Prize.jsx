@@ -20,30 +20,9 @@ const Prize = () => {
         </div>
 
         <div className="team-right-section">
-          <h4 className="profile">
-          <span> Maleea Moebes is a high school senior at BASIS Flagstaff. She will pursue
+          <p> Maleea Moebes is a high school senior at BASIS Flagstaff. She plans to pursue
             Computer Science in college and knows Python and Java and dabbles in C and HTML. She 
-            is looking forward to helping with all your ambitious Hackathon projects. </span>
-          </h4>
-
-          {/*<div className="button">
-            <button
-              type="button"
-              className="btn btn-2 hover-slide-right register-btn"
-            >
-              <a href="https://hackthefuture.devfolio.co/" target="_blank">
-                Register Now <FiArrowUpRight />
-              </a>
-            </button>
-            <button
-              type="button"
-              className="btn btn-2 hover-slide-right discord"
-            >
-              <a href="https://discord.gg/q9vHfn9M" target="_blank">
-                Donate/Sponsor 
-              </a>
-            </button>
-          </div>*/}
+            is looking forward to helping with all your ambitious Hackathon projects. </p>
         </div>
  
       </div>

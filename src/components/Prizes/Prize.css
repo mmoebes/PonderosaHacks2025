@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
-
 .divider-line {
   border: 1px solid #ffffff;
   margin: 0.5rem auto 1.5rem;
@@ -18,32 +15,6 @@
   padding-bottom: 0%;
 }
 
-.title-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 20px;
-  text-transform: uppercase;
-  position: relative;
-  /* top: -10%; */
-}
-
-.hackathon-title {
-  font-size: 5rem;
-  color: #fff;
-  font-weight: bold;
-  animation: fadeIn 1s;
-  margin-top: 0;
-  font-family: "Oswald", sans-serif;
-}
-
-.hackathon-title span {
-  font-size: 4rem;
-  font-family: "Londrina Outline", cursive;
-  text-shadow: 0 0 5px #02f2fa, 0 0 10px #02f2fa, 0 0 15px #02f2fa,
-    0 0 20px #02f2fa, 0 0 25px #02f2fa, 0 0 30px #02f2fa;
-}
-
 .team-section {
   display: flex;
   justify-content: center;
@@ -52,7 +23,8 @@
 }
 
 .team-left-section {
-  text-align: center;
+  text-align: right;
+  margin-right: 2%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -60,110 +32,20 @@
 
 .team-right-section {
   text-align: left;
-  width: 95%;
-  padding-right: 5%;
-}
-
-.profile {
-  margin-top: 0;
-  font-size: 1.2rem;
+  margin-left: 0%;
+  width: 100%;
+  padding-right: 15%;
+  max-width: 800px;
   color: #efa506;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  text-align: left;
-}
-
-h1 {
-  color: #333;
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  animation: fadeIn 1s;
-}
-
-.hackerspace {
-  color: #ffae00;
-  font-size: 3rem;
-  font-family: Poppins, sans-serif;
-  font-weight: normal;
-  margin-bottom: -10px;
-}
-
-h2 {
-  color: #333;
   font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  animation: fadeIn 1s;
-}
-
-h3 {
-  color: #555;
-  font-size: 3rem;
-  margin-bottom: 10px;
-  animation: fadeIn 1s;
-  animation: neonGlow 1.5s ease-in-out infinite alternate;
-}
-
-.button2 {
-  display: flex;
-  justify-content: center;
-  gap: 1%;
-  position: relative;
-  text-align: center;
-}
-
-.btn2 {
-  display: block;
-  width: auto;
-  height: 40px;
-  cursor: pointer;
-  margin: 15px;
-  min-width: 150px;
-  transition: 0.5s;
-  border-radius: 5px;
-  font-weight: 600 !important;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-}
-
-.register-btn2 a {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  gap: 0px;
-  text-decoration: none;
-  color: #000;
-}
-
-.register-btn2:hover a {
-  color: #ffae00;
-}
-
-.register-btn2 {
-  background-color: #9e52e9 !important;
-  color: #000 !important;
-}
-
-.register-btn2:hover {
-  color: #ffae00 !important;
-  background-color: transparent !important;
-  border-color: #ffae00 !important;
-}
-
-.register2 {
-  transform: rotate(-45deg);
+  line-height: 1.5;
 }
 
 .leader1 img {
   width: 30%;
   position: relative;
-  text-align: center;
-  justify-content: center;
+  text-align: right;
+  justify-content: right;
   display: inline;
 }
 
@@ -204,23 +86,6 @@ h3 {
     gap: 1rem;
   }
 
-  .title-container {
-    top: -10%;
-    margin-top: 8%;
-  }
-
-  .hackathon-title {
-    font-size: 2rem;
-  }
-
-  .date b {
-    font-size: 6rem;
-  }
-
-  .hackathon-title span {
-    font-size: 2.5rem;
-  }
-
   .team-left-section {
     position: relative;
     top: -32%;
@@ -229,51 +94,13 @@ h3 {
   .team-right-section {
     top: -18%;
     padding-right: 0%;
-
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
-  .profile {
-    font-size: 1.2rem;
-    text-align: center;
-    position: relative;
-    display: flex;
-  }
-
-  .hackerspace {
-    font-size: 2rem;
-    /* left: 29%; */
-    position: relative;
-  }
-
-  .team-text {
-    font-size: 1rem;
-    justify-content: center;
-  }
-
-  .college-name a {
-    font-size: 26px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-
-  .btn {
-    display: flex;
-    margin: 0px;
-    min-width: 0px;
-  }
-  .register-btn {
-    margin-right: 0;
-  }
-
-  .register-btn a {
-    gap: 0px;
-  }
   .leader1 img {
-    width: 30%;
-      position: relative;
-      text-align: center;
-      justify-content: center;
+    width: 180px;
+    align-items: center;
   }
 }
 
@@ -292,18 +119,6 @@ h3 {
     gap: 1rem;
   }
 
-  .title-container {
-    top: -10%;
-  }
-
-  .hackathon-title {
-    font-size: 3rem;
-  }
-
-  .hackathon-title span {
-    font-size: 2.5rem;
-  }
-
   .team-left-section {
     top: -18%;
   }
@@ -311,33 +126,10 @@ h3 {
   .team-right-section {
     position: relative;
     top: -32%;
-    padding-right: 0%;
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
-  .profile {
-    font-size: 1.5rem;
-     position: relative;
-  }
-
-  .hackerspace {
-    font-size: 2rem;
-    /* left: 29%; */
-    position: relative;
-    margin-bottom: -5px;
-  }
-
-  .team-text {
-    width: 50%;
-    left: 29%;
-    position: relative;
-  }
-
-  .college-name a {
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
   .leader1 img {
     width: 180px;
     align-items: center;
@@ -347,67 +139,40 @@ h3 {
 /* Screen size between 768px and 991px */
 @media (min-width: 768px) and (max-width: 991px) {
   .team-container {
-    flex-direction: column;
     padding-top: 5%;
-    /* margin-bottom: -25%; */
     padding-bottom: 5%;
   }
 
   .team-section {
-    flex-direction: column;
     gap: 1rem;
   }
 
   .title-container {
-    top: -10%;
+    top: -20%;
   }
 
   .team-left-section {
-    top: -18%;
+    top: -20%;
+    flex-basis: 100%;
   }
 
   .team-right-section {
     position: relative;
-    top: -32%;
-    padding-right: 0%;
+    padding-right: 15%;
   }
 
-  .profile {
-    font-size: 1.5rem;
-    position: relative;
-  }
-
-  .hackerspace {
-    font-size: 2rem;
-    /* left: 20%; */
-    position: relative;
-    margin-bottom: -5px;
-  }
-
-  .team-text {
-    justify-content: center;
-  }
-
-  .college-name a {
-    font-size: 26px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
 }
+
 
 /* Screen size between 992px and 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-
   .team-container {
-    flex-direction: column;
     padding-top: 5%;
     padding-bottom: 5%;
   }
 
   .team-section {
-    flex-direction: column;
     gap: 1rem;
   }
 
@@ -422,35 +187,9 @@ h3 {
 
   .team-right-section {
     position: relative;
-    /* top: -12%; */
-    padding-right: 0%;
-    flex-basis: 100%;
+    padding-right: 15%;
   }
 
-  .profile {
-    font-size: 1.5rem;
-    position: relative;
-  }
-
-  .hackerspace {
-    font-size: 3rem;
-    /* left: 20%; */
-    position: relative;
-    margin-bottom: -5px;
-  }
-
-  .team-text {
-    font-size: 1.6rem;
-    position: relative;
-    text-align: center;
-  }
-
-  .college-name a {
-    font-size: 36px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
 }
 
 /* Screen size 1200px and above */
