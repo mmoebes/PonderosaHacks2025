@@ -152,6 +152,7 @@ h3 {
   padding-right: 0.5rem;
 }
 
+
 .button {
   display: flex;
   justify-content: center;
@@ -161,27 +162,25 @@ h3 {
 }
 
 .btn {
-  display: block;
-  height: 40px;
+  height: 50px;
   cursor: pointer;
   margin: 15px;
-  width: 150px;
+  min-width: 50%;
   transition: 0.5s;
   border-radius: 5px;
-  font-weight: 700 !important;
-  margin-top: 20px;
+  font-weight: 600 !important;
   align-items: center;
   justify-content: center;
   color: #000;
 }
 
 .register-btn a {
-
   justify-items: center;
   align-items: center;
-  gap: 1px;
+  gap: 2px;
   text-decoration: none;
   color: #000;
+  font-size: 25px;
 }
 
 .register-btn:hover a {
@@ -210,6 +209,7 @@ h3 {
 .discord a {
   color: #000;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .discord:hover {
@@ -234,7 +234,7 @@ h3 {
  .logo img {
   height: 60%;
   width: 60%;
-  max-width: 600px;
+  max-width: 700px;
  }
 @keyframes fadeIn {
   0% {
@@ -335,19 +335,28 @@ h3 {
 
   .btn {
     display: flex;
-    margin: 0px;
-    min-width: 20px;
+    margin: 3px;
   }
   .register-btn {
     margin-right: 0;
-    min-width: 120px;
   }
 
   .register-btn a {
     gap: 0px;
+    font-size: 18px;
+  }
+  .discord a {
+    gap: 0px;
+    font-size: 18px;
   }
 
 }
+
+.logo img {
+  height: 80%;
+  width:80%;
+  max-width: 700px;
+ }
 
 /* Screen size between 481px and 767px */
 @media (min-width: 481px) and (max-width: 767px) {
