@@ -29,11 +29,11 @@ const AboutSection = () => {
 
           </p>
           <p>
-            Even though our event is called a hackathon, your brain will be the only thing you'll be hacking. 
-            If you can code, feel free to write programs or program a solution for your project, but don't worry, if 
-            you can't code you'll be at no disadvantage. You can utilize any of your skills or passions to create
-            your project. You can make a prototype of a physical device, a website(we will have a workshop teaching you 
-            how), a game, or anything you can think of. We will have volunteers and people knowledgeable in engineering, 
+            Even though our event is called a hackathon, your brain is the only thing you'll be hacking. 
+            If you can code, feel free to write programs or program a solution for your project. And if you can't code, don't worry! 
+            You'll be at no disadvantage. You can utilize any of your skills or passions to create
+            your project. You can make a prototype of a physical device, build a website (we'll have a workshop teaching you 
+            how), a game, or anything you can think of. We'll have volunteers and people knowledgeable in engineering, 
             computer science, and other topics to help you with your project. Come with a team or find one at the event. 
           </p>
           <p>Everything begins with an IDEA.</p>
