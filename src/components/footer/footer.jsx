@@ -41,7 +41,11 @@ const footer = () => {
       </div>
       <div className="copyContainer">
         <p>
-          <span>©</span> {currentYear} PONDEROSA HACKS.<span> Fiscally sponsored by The Hack Foundation. Nonprofit EIN: 81-2908499.</span>
+          <span>©</span> {currentYear} PONDEROSA HACKS.<span> Fiscally sponsored by&nbsp;         
+            <a href="https://hackclub.com" target="_blank">
+          Hack Club
+          </a>
+          . Nonprofit EIN: 81-2908499.</span>
         </p>
       </div>
     </footer>
