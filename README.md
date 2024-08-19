@@ -1,6 +1,6 @@
 # Ponderosa Hacks
 
-Welcome to our first ever Flagstaff AZ Hackathon run by high school students, for local high school students. HUGE thanks to Hack the Future! We used their open source repository as a startig point for this website https://github.com/Hackerspace2023/hack-the-future.git. We also leveraged ideas from many other websites related to Hack Club. We hope that our repository will be a benefit to others as well. 
+Welcome to our first ever Flagstaff AZ Hackathon run by high school students, for local high school students. HUGE thanks to Hack the Future! We used their open source repository as a starting point (https://github.com/Hackerspace2023/hack-the-future.git). We also leveraged ideas from many other websites related to Hack Club. We hope that our repository will be a benefit to others as well. 
 
 
 ## Installation
