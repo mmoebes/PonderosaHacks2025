@@ -25,7 +25,7 @@ const Prize = () => {
         </div>
         <div>
         <a href="/">
-            <img src={Maleea1} alt="Maleea"  />
+            <img src={Sav1} alt="Savannah"  />
           </a><br />
             <p><b>Savannah Sanistreet - Flagstaff High School, Senior </b>
                <br />
@@ -34,7 +34,7 @@ const Prize = () => {
         </div>
       <  div>
       <a href="/">
-            <img src={Maleea1} alt="Maleea"  />
+            <img src={Jaden1} alt="Jaden Anonymous"  />
           </a><br />
             <p><b>Jaden - Coconino High School, Junior </b>
                <br />
