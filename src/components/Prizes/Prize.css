@@ -4,13 +4,38 @@
   width: 80%;
 }
 
+/* container */
+.responsive-three-column-grid {
+  display:block;
+  color: #689e6a;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* columns */
+.responsive-three-column-grid > * {
+  padding:3rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .responsive-three-column-grid {
+      display: grid;
+      grid-auto-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      color: #689e6a;
+      text-align: center;
+      font-size: 20px;
+  }
+}
+
 .team-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100%;
-  background: #4a4e4c;
+  background: #000000;
   padding-top: 2%;
   padding-bottom: 0%;
 }

@@ -2,31 +2,48 @@ import React, { useState, useEffect } from "react";
 import "./Prize.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import Maleea from "/images/MaleeaProfilePic.jpg";
+import Maleea1 from "/images/Maleea1.jpg";
 
 const Prize = () => {
 
   return (
+    
     <div className="team-container" id="Leadership">
       <h1 className="heading-tag-line">Leadership</h1>
       < hr className="heading-underline" />
-      <div className="team-section">
-
-       <div className="team-left-section">
-          <div className="leader1">
-            <a href="/">
-              <img src={Maleea} alt="Maleea"  />
-            </a>
-          </div>
+      <div class="responsive-three-column-grid">
+        <div>
+          <a href="/">
+            <img src={Maleea1} alt="Maleea"  />
+          </a><br />
+            <p><b>Maleea Moebes - BASIS Flagstaff, Senior </b>
+               <br />
+              I plan to pursue Computer Science in college and know Python
+              and Java and dabble in C and HTML. I'm looking forward to 
+              helping with all your ambitious Hackathon projects.
+            </p>
         </div>
-
-        <div className="team-right-section">
-          <p> Maleea Moebes is a high school senior at BASIS Flagstaff. She plans to pursue
-            Computer Science in college and knows Python and Java and dabbles in C and HTML. She 
-            is looking forward to helping with all your ambitious Hackathon projects. </p>
+        <div>
+        <a href="/">
+            <img src={Maleea1} alt="Maleea"  />
+          </a><br />
+            <p><b>Savannah Sanistreet - Flagstaff High School, Senior </b>
+               <br />
+              ...........................
+            </p>
         </div>
+      <  div>
+      <a href="/">
+            <img src={Maleea1} alt="Maleea"  />
+          </a><br />
+            <p><b>Jaden - Coconino High School, Junior </b>
+               <br />
+              ........................
+            </p>
+        </div>
+    </div>
+    
  
-      </div>
-      <br />
 
     </div>
   );

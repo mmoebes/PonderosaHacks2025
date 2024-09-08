@@ -12,27 +12,21 @@ const Timeline = () => {
         <div className="Schedule_container">
           <ul>
             <li>
-              <h3 className="Schedule_heading">Pre Events</h3>
+              <h3 className="Schedule_heading">8:30AM Registration</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam orem ipsum dolor sit amet,
-                consectetur adipisicing elit. Fugit excepturi accusamus minus
-                totam
+                Don't forget your school ID, laptop, power cord, chargers, etc.
               </p>
               {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">28 July 2023</span>
+              <span className="Schedule_date">Saturday, October 5th</span>
               <span className="circle"></span>
             </li>
             <li>
               <h3 className="Schedule_heading">First Day</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Fugit excepturi accusamus minus
-                totam
+                text
               </p>
               {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">29 July 2023</span>
+              {/* <span className="Schedule_date">29 July 2023</span> */}
               <span className="circle"></span>
             </li>
             <li>
