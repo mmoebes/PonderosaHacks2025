@@ -1,8 +1,9 @@
 import React from "react";
 import "./footer.css";
 import hackathonLogo from "/images/hackslogo3.png";
-import { FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedinIn, FaEnvelope } from "react-icons/fa6";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { SiDevpost } from "react-icons/si";
 
 const footer = () => {
   // get the current year dynamically
@@ -11,33 +12,33 @@ const footer = () => {
     <footer className="mainContainer" id="Footer">
       
       <div className="contentContainer">
-        <div className="logoContent">
-          <a href="/">
-            <img src={hackathonLogo} alt="Ponderosa Hacks" />
-          </a>
-        </div>
-      {/*  <div className="socialContent">*/}
-      {/*    <div className="contentText">*/}
-      {/*      <ul className="socialLogo">*/}
-      {/*        <li>*/}
-      {/*          <a href="/" target="_blank">*/}
-      {/*            <BsFacebook />*/}
-      {/*          </a>*/}
-      {/*        </li>*/}
-      {/*        <li>*/}
-      {/*          <a href="/" target="_blank">*/}
-      {/*            <FaLinkedinIn />*/}
-      {/*          </a>*/}
-      {/*        </li>*/}
-       {/*       <li className="instalogo">*/}
-       {/*         <a href="/" target="_blank">*/}
-       {/*           <BsInstagram />*/}
-       {/*         </a>*/}
-        {/*      </li>*/}
-        {/*    </ul>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+        <div className="logoContent"> 
+          <p> 
+          </p>
+          
+      <div className="socialContent">
+          
+            <ul className="socialLogo">
+              <li>
+                
+               <a href="mailto:info@ponderosa-hacks.com?" target="_blank">
+                 <FaEnvelope />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/ponderosa-hacks" target="_blank">
+                  <FaLinkedinIn />
+                </a>
+              </li>
+             <li className="instalogo">
+              <a href="https://ponderosa-hacks.devpost.com/" target="_blank">
+                  <SiDevpost />
+                </a>
+              </li>
+            </ul>
 
+        </div>
+        </div>
       </div>
       <div className="copyContainer">
         <p>

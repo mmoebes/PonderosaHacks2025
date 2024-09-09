@@ -1,47 +1,24 @@
 import React from "react";
 import "./Schedule.css";
+import { FiCheckCircle } from "react-icons/fi";
 
 const Timeline = () => {
   return (
     <div>
-      <div className="about-head-section">
-        <h1 className="heading-tag-line">Schedule</h1>
-        <hr className="heading-underline" />
-      </div>
-      <div className="Schedule_main" id="Schedule">
-        <div className="Schedule_container">
-          <ul>
-            <li>
-              <h3 className="Schedule_heading">8:30AM Registration</h3>
-              <p>
-                Don't forget your school ID, laptop, power cord, chargers, etc.
-              </p>
-              {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">Saturday, October 5th</span>
-              <span className="circle"></span>
-            </li>
-            <li>
-              <h3 className="Schedule_heading">First Day</h3>
-              <p>
-                text
-              </p>
-              {/* <a href="#">Read More &gt;</a> */}
-              {/* <span className="Schedule_date">29 July 2023</span> */}
-              <span className="circle"></span>
-            </li>
-            <li>
-              <h3 className="Schedule_heading">Second Day</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                excepturi accusamus minus totam Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Fugit excepturi accusamus minus
-                totam
-              </p>
-              {/* <a href="#">Read More &gt;</a> */}
-              <span className="Schedule_date">30 July 2023</span>
-              <span className="circle"></span>
-            </li>
-          </ul>
+      <div className="sched-section">
+        <h1 className="schedheading-tag-line">Schedule</h1>
+        <hr className="schedheading-underline" />
+        <div className="Schedule_main">
+            <div className="Schedule_container">
+                <p> 👋 <b>8:00AM</b> Check-in, Breakfast</p>
+                <p> 📢 <b>8:30AM</b> Welcome! Opening Ceremony</p>
+                <p> 👥 <b>9:30AM</b> Team Formation (Optional)</p>
+                <p> 👩‍💻 <b>9:45AM</b> Hacking Begins</p>
+                <p> 🍽️ <b>12:00PM</b> Lunch</p>
+                <p> ⌛ <b>4:30PM</b> Hacking Ends, Judging</p>
+                <p> 📢 <b>5:30PM</b> Awards, Closing Ceremony</p>
+                <p> 😭 <b>6:00PM</b> Event Ends</p>
+            </div>
         </div>
       </div>
     </div>

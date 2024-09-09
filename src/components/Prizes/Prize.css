@@ -4,6 +4,10 @@
   width: 80%;
 }
 
+.icon1 {
+    color: #ffffff;
+  }
+
 /* container */
 .responsive-three-column-grid {
   display:block;
@@ -15,6 +19,7 @@
 /* columns */
 .responsive-three-column-grid > * {
   padding:3rem;
+  max-width:800px;
 }
 
 /* tablet breakpoint */
@@ -38,6 +43,7 @@
   background: #000000;
   padding-top: 2%;
   padding-bottom: 0%;
+
 }
 
 .team-section {

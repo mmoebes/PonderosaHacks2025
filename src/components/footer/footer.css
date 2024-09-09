@@ -6,25 +6,26 @@
   display: flex;
   flex-direction: column;
   background-size: cover;
-  text-align: left;
-  justify-content: left;
+  text-align: center;
+  justify-content: center;
   width: 100%;
   font-family: Oswald, sans-serif;
   bottom: 0;
-  padding-top: 10px;
+  padding-top: 0px;
+  color: #fff;
 }
 
 .contentContainer {
   display: flex;
   position: relative;
   justify-content: space-around;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .logoContent {
   position: center;
-  width: 100px;
+  width: 200px;
 }
 
 .logoContent img {
@@ -55,7 +56,7 @@
   text-transform: uppercase;
   font-weight: 400;
   line-height: 2rem;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   word-spacing: 0.5;
 }
@@ -99,25 +100,25 @@
 }
 
 .socialContent {
-  padding-top: 40px;
+  padding-top: 10px;
   position: relative;
   width: 400px;
+
 }
 
 .socialLogo {
-  font-size: 26px;
+  font-size: 20px;
   margin-left: 0;
   display: flex;
   list-style: none;
-
   padding-left: 0;
 }
 
 .socialLogo li {
   color: #363636;
   text-decoration: none;
-  line-height: 3rem;
-  padding-right: 10px;
+  line-height: 2rem;
+  padding-right: 30px;
   transition: 0.3s;
 }
 
@@ -147,7 +148,7 @@
 }
 
 .socialLogo:hover > li:hover a {
-  background: #0000ff;
+  background: linear-gradient(#405de6,#833Ab4);
 }
 .socialLogo:hover > .instalogo:hover a {
   background-image: linear-gradient(#405de6,#833Ab4,#FD1D1d,#f77737,#fcaf45);
