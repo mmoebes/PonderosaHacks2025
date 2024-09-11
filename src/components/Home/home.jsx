@@ -56,7 +56,7 @@ const Home = () => {
             </a>
           </div>
           <h1 className="greetings">
-          1st ever High School Hackathon in Flagstaff
+          1st Ever High School Hackathon in Flagstaff
           </h1> 
           <h2 className="date">
           October 5, 2024 @ 8AM - 6:30PM

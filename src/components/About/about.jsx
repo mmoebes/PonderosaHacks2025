@@ -9,6 +9,8 @@ const AboutSection = () => {
        {/*} <h1 className="heading-tag-line3">About</h1>
         <hr className="heading-underline3" />*/}
         <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
+        <h1 className="about-heading2">Limited Spots - Register Now!</h1>    
+        
       </div>
       <h1 className="heading-tag-line3">About</h1>
       <hr className="heading-underline3" />
