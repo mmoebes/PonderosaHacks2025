@@ -35,6 +35,11 @@ const footer = () => {
                   <SiDevpost />
                 </a>
               </li>
+              <li className="instalogo">
+              <a href="https://www.instagram.com/ponderosa_hacks/" target="_blank">
+                  <BsInstagram />
+                </a>
+              </li>
             </ul>
 
         </div>

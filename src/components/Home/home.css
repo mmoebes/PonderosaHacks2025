@@ -156,7 +156,7 @@ h3 {
 .button {
   display: flex;
   justify-content: center;
-  gap: 2%;
+  gap: 3%;
   position: relative;
   text-align: center;
 }
@@ -164,7 +164,7 @@ h3 {
 .btn {
   height: 50px;
   cursor: pointer;
-  margin: 15px;
+  margin: 5px;
   min-width: 50%;
   transition: 0.5s;
   border-radius: 5px;
@@ -218,6 +218,25 @@ h3 {
 }
 
 .discord:hover > a {
+  color: #5791e7;
+}
+
+.donate {
+  background-color: #53e767 !important;
+}
+
+.donate a {
+  color: #000;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.donate:hover {
+  border: 2px solid #53e767 !important;
+  background-color: transparent !important;
+}
+
+.donate:hover > a {
   color: #53e767;
 }
 
@@ -335,7 +354,8 @@ h3 {
 
   .btn {
     display: flex;
-    margin: 3px;
+    margin: 2px;
+    min-width: 50%;
   }
   .register-btn {
     margin-right: 0;
@@ -343,13 +363,16 @@ h3 {
 
   .register-btn a {
     gap: 0px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .discord a {
     gap: 0px;
-    font-size: 18px;
+    font-size: 16px;
   }
-
+  .donate a {
+    gap: 0px;
+    font-size: 16px;
+  }
 }
 
 .logo img {

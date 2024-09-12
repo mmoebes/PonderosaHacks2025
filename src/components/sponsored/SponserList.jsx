@@ -10,7 +10,7 @@ const SponserList = (props) => {
           key={Sponser.id}
           id={Sponser.id}
           name={Sponser.sponserName}
-          website={Sponser.sponserWesite}
+          website={Sponser.sponserWebsite}
           image={Sponser.sponserImage}
         />
       ))}
