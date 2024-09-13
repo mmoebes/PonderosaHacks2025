@@ -2,6 +2,23 @@
   padding-top: 3rem;
   background: #fff;
 }
+.heading-tag-line1 {
+  font-size: 48px;
+  font-style: normal;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #ffae00;
+}
+
+.heading-underline1 {
+  border: 2px solid #ffae00;
+  margin: 0.5rem auto 1.5rem;
+  width: 5%;
+}
 .sponsor-subsection {
   position: relative;
   display: flex;
@@ -86,33 +103,23 @@ a:link {
   margin-bottom: 15px;
   color: #595959;
 }
-.heading-tag-line1 {
-  font-size: 48px;
-  font-style: normal;
-  padding-bottom: 0.1rem;
-  margin-bottom: 0;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #ffae00;
-}
 
-.heading-underline1 {
-  border: 2px solid #ffae00;
-  margin: 0.5rem auto 1.5rem;
-  width: 5%;
-}
 .slide-image {
-  width: 200px;
   height: 200px;
-  animation: scroll 30s alternate-reverse infinite;
+
+  /*width: 200px;
+  width: 80%;
+  height: 200px;
+  animation: scroll 20s normal;*/
 }
 
 .slide-track {
-  width: 100%;
+  height: 200px;
+  margin: auto;
   display: flex;
-  gap: 3em;
+  text-align: center;
+  justify-content: center;
+  gap: 2em;
   overflow: hidden;
 }
 
@@ -133,5 +140,23 @@ a:link {
 @media screen and (max-width: 500px) {
   .heading-tag-line1 {
     font-size: 40px;
+  }
+  .slide-image {
+    height: 120px;
+  
+    /*width: 200px;
+    width: 80%;
+    height: 200px;
+    animation: scroll 20s alternate-reverse infinite;*/
+  }
+  
+  .slide-track {
+    height: 120px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 0em;
+    overflow: hidden;
   }
 }

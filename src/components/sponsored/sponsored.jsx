@@ -1,6 +1,6 @@
 import React from "react";
-//import { sponserData } from "./data";
-//import SponserList from "./SponserList";
+import { sponserData } from "./data";
+import SponserList from "./SponserList";
 import "./sponsored.css";
 import Pdf from "/images/SponsorInfo-v2.pdf";
 import { FaDownload } from "react-icons/fa";
@@ -9,15 +9,16 @@ const Sponsors = () => {
   return (
     <div className="sponsor-section" id="Sponsors">
     <div className="sponsor-head-section">
-      <h1 className="heading-tag-line1">Donate/Sponsor</h1>
+      <h1 className="heading-tag-line1">Sponsors</h1>
       <hr className="heading-underline1" />
     </div>
+    <SponserList items={sponserData} />
     <div className="sponsor-subsection">
     <div className="sponsor-left-section">
         {/*<h2 className="sponsor-heading">
         We need your help! 
         </h2>*/}
-        <h2 className="sponsor-heading">
+        <h2 className="sponsor-heading"><br />
         This event is being organized by high school students - please support us!
         </h2>
         <p>

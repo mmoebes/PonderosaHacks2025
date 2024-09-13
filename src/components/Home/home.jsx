@@ -3,6 +3,7 @@ import "./home.css";
 import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
+import { FaGift} from "react-icons/fa6";
 import PonderosaHacksLogo from "/images/hackslogo.png";
 
 const Home = () => {
@@ -50,7 +51,9 @@ const Home = () => {
 
   return (
     <div className="home-container" id="Home">
+      
           <div className="logo">
+            
             <a href="/">
               <img src={PonderosaHacksLogo} alt="PonderosaHacks"  />
             </a>
@@ -102,10 +105,18 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right discord"
             >
-              <a href="https://hcb.hackclub.com/donations/start/ponderosa-hacks" target="_blank">
-                Donate/Sponsor 
+              <a href="https://discord.gg/scPtmsaT" target="_blank">
+                Join Discord <BsDiscord />
               </a>
             </button>
+            {/* <button
+              type="button"
+              className="btn btn-2 hover-slide-right donate"
+            >
+              <a href="https://hcb.hackclub.com/donations/start/ponderosa-hacks" target="_blank">
+                Donate <FaGift />
+              </a>
+            </button>*/}
           </div>
     </div>
   );

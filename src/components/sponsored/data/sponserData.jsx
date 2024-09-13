@@ -1,22 +1,22 @@
-import { sp1, sp2, sp3, sp4, sp5, sp6 } from "../assets";
+import { sp1, sp2, sp3 } from "../assets";
 
 const sponserData = [
   {
-    id: "sp1",
-    sponserWebsite: "#",
+    id: "Coconino Federal Credit Union" ,
+    sponserWebsite: "https://www.coconinofcu.org/",
     sponserImage: sp1,
   },
   {
-    id: "sp2",
-    sponserWebsite: "#",
+    id: "FlagTag",
+    sponserWebsite: "https://www.flagtagaz.com/",
     sponserImage: sp2,
   },
   {
-    id: "sp3",
-    sponserWebsite: "#",
+    id: "Hack Club",
+    sponserWebsite: "https://hackclub.com/",
     sponserImage: sp3,
   },
-  {
+  /*{{
     id: "sp4",
     sponserWebsite: "#",
     sponserImage: sp4,
@@ -32,34 +32,34 @@ const sponserData = [
     sponserImage: sp6,
   },
   {
-    id: "sp7",
-    sponserWebsite: "#",
+    id: "Coconino Federal Credit Union" ,
+    sponserWebsite: "https://www.coconinofcu.org/",
     sponserImage: sp1,
   },
   {
-    id: "sp8",
-    sponserWebsite: "#",
+    id: "FlagTag",
+    sponserWebsite: "https://www.flagtagaz.com/",
     sponserImage: sp2,
   },
   {
-    id: "sp9",
-    sponserWebsite: "#",
+    id: "Hack Club",
+    sponserWebsite: "https://hackclub.com/",
     sponserImage: sp3,
+  },}*/
+  {
+    id: "Coconino Federal Credit Union" ,
+    sponserWebsite: "https://www.coconinofcu.org/",
+    sponserImage: sp1,
   },
   {
-    id: "sp10",
-    sponserWebsite: "#",
-    sponserImage: sp4,
+    id: "FlagTag",
+    sponserWebsite: "https://www.flagtagaz.com/",
+    sponserImage: sp2,
   },
   {
-    id: "sp11",
-    sponserWebsite: "#",
-    sponserImage: sp5,
-  },
-  {
-    id: "sp12",
-    sponserWebsite: "#",
-    sponserImage: sp6,
+    id: "Hack Club",
+    sponserWebsite: "https://hackclub.com/",
+    sponserImage: sp3,
   },
 ];
 
