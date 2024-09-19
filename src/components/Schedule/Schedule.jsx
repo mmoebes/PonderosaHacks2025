@@ -10,10 +10,10 @@ const Timeline = () => {
         <hr className="schedheading-underline" />
         <div className="Schedule_main">
             <div className="Schedule_container">
-                <p> 👋 <b>7:30AM</b> Check-in, Breakfast</p>
-                <p> 📢 <b>8:00AM</b> Welcome! Opening Ceremony</p>
-                <p> 👥 <b>8:45AM</b> Team Formation (Optional)</p>
-                <p> 👩‍💻 <b>9:00AM</b> Hacking Begins</p>
+                <p> 👋 <b>8:00AM</b> Check-in, Breakfast</p>
+                <p> 📢 <b>8:30AM</b> Welcome! Opening Ceremony</p>
+                <p> 👥 <b>9:00AM</b> Team Formation (Optional)</p>
+                <p> 👩‍💻 <b>9:15AM</b> Hacking Begins</p>
                 <p> 🍽️ <b>12:00PM</b> Lunch</p>
                 <p> ⌛ <b>4:30PM</b> Hacking Ends, Judging</p>
                 <p> 📢 <b>5:30PM</b> Awards, Closing Ceremony</p>
