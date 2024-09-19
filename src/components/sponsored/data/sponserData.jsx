@@ -1,4 +1,4 @@
-import { sp1, sp2, sp3 } from "../assets";
+import { sp1, sp2, sp3, sp4, sp5 } from "../assets";
 
 const sponserData = [
   {
@@ -16,17 +16,17 @@ const sponserData = [
     sponserWebsite: "https://hackclub.com/",
     sponserImage: sp3,
   },
-  /*{{
-    id: "sp4",
-    sponserWebsite: "#",
+  {
+    id: "Northern Arizona University",
+    sponserWebsite: "https://nau.edu/",
     sponserImage: sp4,
   },
   {
-    id: "sp5",
-    sponserWebsite: "#",
+    id: "Oregano's Pizza",
+    sponserWebsite: "https://oreganos.com/",
     sponserImage: sp5,
   },
-  {
+  /*{
     id: "sp6",
     sponserWebsite: "#",
     sponserImage: sp6,
@@ -45,7 +45,7 @@ const sponserData = [
     id: "Hack Club",
     sponserWebsite: "https://hackclub.com/",
     sponserImage: sp3,
-  },}*/
+  },
   {
     id: "Coconino Federal Credit Union" ,
     sponserWebsite: "https://www.coconinofcu.org/",
@@ -60,7 +60,7 @@ const sponserData = [
     id: "Hack Club",
     sponserWebsite: "https://hackclub.com/",
     sponserImage: sp3,
-  },
+  },}*/
 ];
 
 export default sponserData;

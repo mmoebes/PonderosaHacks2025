@@ -69,7 +69,7 @@ const Prize = () => {
             </div>
     
             
-            <div>
+            {/*<div>
                 <a href="/">
                 <img src={Anon1} alt="Annabelle"  />
                 </a><br />
@@ -79,7 +79,7 @@ const Prize = () => {
                <br />
               ...........................
             </p>
-            </div>
+            </div>*/}
             
         </div>
         </div>    
