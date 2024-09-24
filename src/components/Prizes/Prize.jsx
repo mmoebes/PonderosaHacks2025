@@ -63,8 +63,8 @@ const Prize = () => {
            
                <br />
               Eva is the Student President of the Career and Technical Student 
-              Organization and is interest in Engineering and Design. She loves volleyball
-              plays on the indoor and beach volleyball team for her high school.
+              Organization and is interested in Engineering and Design. She loves volleyball and
+              plays on both the indoor and beach volleyball teams for her high school.
                 </p>
             </div>
     
