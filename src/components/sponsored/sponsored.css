@@ -1,6 +1,7 @@
 .sponsor-section {
   padding-top: 3rem;
   background: #fff;
+  
 }
 .heading-tag-line1 {
   font-size: 48px;
@@ -104,59 +105,69 @@ a:link {
   color: #595959;
 }
 
-.slide-image {
-  height: 200px;
-
-  /*width: 200px;
-  width: 80%;
-  height: 200px;
-  animation: scroll 20s normal;*/
-}
-
-.slide-track {
-  height: 200px;
-  margin: auto;
-  display: flex;
+/* container */
+.responsive-multi-column-grid {
+  display:block;
   text-align: center;
-  justify-content: center;
-  gap: 2em;
-  overflow: hidden;
+  font-size: 20px;
+  color: #fff;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: #fff;
+  text-align: center;
+  width: 100%;  
 }
 
-.slider {
-  /*background-color: #1F0D3F;*/
-  padding: 4rem 1rem;
+/* columns */
+.responsive-multi-column-grid > * {
+  padding:0.5rem;
+  text-align: center;
 }
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
+.responsive1 {
+  width: 100%;
+  height: auto;
+  max-width:300px;
+  text-align: center;
+}
+/* tablet breakpoint */
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
+  .responsive-multi-column-grid {
+      display: grid;
+      grid-auto-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      color: #fff;
+      text-align: center;
+      width: 80%;  
+      padding:0rem;
   }
-  100% {
-    transform: translatex(-1000%);
+  .responsive1 {
+    width: 100%;
+    height: auto;
+    max-width:200px;
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
   .heading-tag-line1 {
     font-size: 40px;
   }
-  .slide-image {
-    height: 120px;
-  
-    /*width: 200px;
-    width: 80%;
-    height: 200px;
-    animation: scroll 20s alternate-reverse infinite;*/
-  }
-  
-  .slide-track {
-    height: 120px;
-    margin: auto;
-    display: flex;
+  .responsive-multi-column-grid {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
     text-align: center;
-    justify-content: center;
-    gap: 0em;
-    overflow: hidden;
-  }
+    width: 90%;  
+    padding:0rem;
+}
+.responsive1 {
+  width: 100%;
+  height: auto;
+  max-width:200px;
+  text-align: center;
+}
 }
