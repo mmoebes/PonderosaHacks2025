@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Prize.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import Maleea1 from "/images/Maleea1.jpg";
-import Anon1 from "/images/Jaden1.png";
+import Annabelle1 from "/images/Annabelle1.png";
 import Sav1 from "/images/Sav2.png";
 import Eva1 from "/images/Eva1.png";
 import { FaLinkedinIn, FaEnvelope } from "react-icons/fa6";
@@ -56,7 +56,7 @@ const Prize = () => {
 
             <div>
                 <a href="/">
-                <img src={Eva1} alt="Jaden"  />
+                <img src={Eva1} alt="Eva"  />
                 </a><br /><br />
                 <p> <b>Media Manager</b></p>
                 <p><b>Eva Wilke - Coconino High School, Junior </b>
@@ -69,17 +69,21 @@ const Prize = () => {
             </div>
     
             
-            {/*<div>
+            <div>
                 <a href="/">
-                <img src={Anon1} alt="Annabelle"  />
-                </a><br />
+                <img src={Annabelle1} alt="Annabelle"  />
+                </a><br /><br />
                 <p> <b>Outreach Director</b></p>
-                <p><b>Annabelle Jackson - Northerland Prep Academy, Senior </b>
+                <p><b>Annabelle Jackson - Northland Prep Academy, Senior </b>
             
                <br />
-              ...........................
+               Annabelle has ambitions of purusing a career in business and learning 
+               spanish. For the time being though, she enjoys filling her day with 
+               her studies, sports, side hustles, and school clubs. Aside from being 
+               a representative for Ponderosa Hacks, she is also a captain for her 
+               6 time state champion varsity soccer team.
             </p>
-            </div>*/}
+            </div>
             
         </div>
         </div>    

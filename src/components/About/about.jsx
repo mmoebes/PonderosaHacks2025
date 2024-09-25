@@ -22,9 +22,9 @@ const AboutSection = () => {
           </h2>
           <p>
           Whether you are into Computer Science, Engineering, Art, Medicine, or anything else, a hackathon is for you! 
-          A hackathon is a collaborative event where people come together and create solutions to real-world problems 
-          such as world hunger, water pollution, or accessibility barriers. While we will not likely find THE solution 
-          to a global problem, we can workshop innovative ideas that may contribute to actual solutions. With hours 
+          It's an opportunity to create innovative solutions to challenging problems. While we will not likely find THE solution 
+          to a global problem such as world hunger, water pollution, or accessibility barriers, we can workshop creative ideas 
+          that may one day contribute to actual solutions. With hours 
           to brainstorm, create, and model, you will present your project to a panel of judges for a chance to win 
           cool prizes. During the day, we will provide food, snacks, activities to earn prizes, skills workshops to help 
           with your project, and free goodies from our sponsors.

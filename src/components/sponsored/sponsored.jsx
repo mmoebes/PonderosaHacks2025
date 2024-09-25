@@ -1,6 +1,4 @@
 import React from "react";
-import { sponserData } from "./data";
-import SponserList from "./SponserList";
 import "./sponsored.css";
 import Pdf from "/images/SponsorInfo-v2.pdf";
 import { FaDownload } from "react-icons/fa";
