@@ -22,8 +22,8 @@ const Home = () => {
 
   function calculateTimeLeft() {
     const currentTime = new Date();
-    const targetDate = new Date("2024-10-04");
-    targetDate.setHours(23, 59, 59); // Set the target time to 11:59 pm
+    const targetDate = new Date("2024-10-06");
+    targetDate.setHours(7, 59, 59); // Set the target time to 11:59 pm
 
     const timeDiff = targetDate.getTime() - currentTime.getTime();
 

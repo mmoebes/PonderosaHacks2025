@@ -77,8 +77,8 @@ const Prize = () => {
                 <p><b>Annabelle Jackson - Northland Prep Academy, Senior </b>
             
                <br />
-               Annabelle has ambitions of purusing a career in business and learning 
-               spanish. For the time being though, she enjoys filling her day with 
+               Annabelle has ambitions of pursing a career in business and learning 
+               Spanish. For the time being though, she enjoys filling her day with 
                her studies, sports, side hustles, and school clubs. Aside from being 
                a representative for Ponderosa Hacks, she is also a captain for her 
                6 time state champion varsity soccer team.
