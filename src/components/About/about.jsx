@@ -1,6 +1,6 @@
 import React from "react";
-
 import "./about.css";
+import prizes from "/images/prizes.png";
 
 const AboutSection = () => {
   return (
@@ -39,6 +39,12 @@ const AboutSection = () => {
             computer science, and other topics to help you with your project. Come with a team or find one at the event. 
           </p>
           <p>Everything begins with an IDEA.</p>
+          <h2 className="about-heading">
+          A sneak peak at our prizes...
+          </h2>
+              <a href="/">
+                    <img src={prizes} alt="Prizes" class="responsive2"/>
+              </a>
         </div>
 
       </div>

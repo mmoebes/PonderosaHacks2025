@@ -47,7 +47,7 @@ const Navbar = () => {
             <a href="#Leadership">Leadership</a>
           </li>
           <li className="borderXwidth">
-            <a href="mailto:info@ponderosa-hacks.com?">Contact</a>
+            <a href="mailto:info@ponderosa-hacks.com" target="_blank">Contact</a>
           </li>
         </ul>
       </div>

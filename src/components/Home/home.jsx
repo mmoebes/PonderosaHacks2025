@@ -51,7 +51,6 @@ const Home = () => {
 
   return (
     <div className="home-container" id="Home">
-      
           <div className="logo">
             
             <a href="/">
