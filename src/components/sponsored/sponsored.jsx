@@ -8,6 +8,8 @@ import S3 from "/images/Hackclub.png";
 import S4 from "/images/NAU_logo.png";
 import S5 from "/images/Oreganos.png";
 import S6 from "/images/moonshot.png";
+import S7 from "/images/chickfila.png";
+import S8 from "/images/marvel.png";
 
 const Sponsors = () => {
   return (
@@ -18,8 +20,8 @@ const Sponsors = () => {
     </div>
     <div className="responsive-multi-column-grid">
        <div>
-               <a href="https://www.coconinofcu.org/" id="Coconino Federal Credit Union">
-                    <img src={S1} alt="Coconino Federal Credit Union" class="responsive1"/>
+               <a href="/" id="Marvel Anesthesia, PLLC">
+                    <img src={S8} alt="Marvel Anesthesia, PLLC" class="responsive1"/>
                 </a><br />
         </div>
         <div>
@@ -45,6 +47,16 @@ const Sponsors = () => {
         <div>
                <a href="https://www.moonshotaz.com/" id="Northern Arizona Technology & Business Incubator, Inc.">
                     <img src={S6} alt="Northern Arizona Technology & Business Incubator, Inc." class="responsive1"/>
+                </a><br />
+        </div>
+        <div>
+               <a href="https://www.coconinofcu.org/" id="Coconino Federal Credit Union">
+                    <img src={S1} alt="Coconino Federal Credit Union" class="responsive1"/>
+                </a><br />
+        </div>
+        <div>
+               <a href="https://www.chick-fil-a.com/" id="Chick-Fil-A">
+                    <img src={S7} alt="Chick-Fil-A" class="responsive1"/>
                 </a><br />
         </div>
     </div>
