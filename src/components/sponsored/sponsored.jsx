@@ -10,6 +10,10 @@ import S5 from "/images/Oreganos.png";
 import S6 from "/images/moonshot.png";
 import S7 from "/images/chickfila.png";
 import S8 from "/images/marvel.png";
+import S9 from "/images/warners.png";
+import S10 from "/images/evergreen.png";
+import S11 from "/images/findlay.png";
+import S12 from "/images/boba.png";
 
 const Sponsors = () => {
   return (
@@ -25,8 +29,8 @@ const Sponsors = () => {
                 </a><br />
         </div>
         <div>
-               <a href="https://www.flagtagaz.com/" id="FlagTag">
-                    <img src={S2} alt="FlagTag" class="responsive1"/>
+        <a href="https://nau.edu/" id="Northern Arizona University">
+                    <img src={S4} alt="Northern Arizona University" class="responsive1"/>
                 </a><br />
         </div>
         <div>
@@ -35,13 +39,13 @@ const Sponsors = () => {
                 </a><br />
         </div>
         <div>
-               <a href="https://nau.edu/" id="Northern Arizona University">
-                    <img src={S4} alt="Northern Arizona University" class="responsive1"/>
+               <a href="https://warnercompanies.com/nursery/" id="Warner's Nursery">
+                    <img src={S9} alt="Warner's Nursery" class="responsive1"/>
                 </a><br />
         </div>
         <div>
-               <a href="https://oreganos.com/" id="Oregano's Pizza">
-                    <img src={S5} alt="Oregano's Pizza" class="responsive1"/>
+        <a href="https://www.findlaytoyotaflagstaff.net/" id="Findlay Toyota Flagstaff">
+                    <img src={S11} alt="Findlay Toyota Flagstaff" class="responsive1"/>
                 </a><br />
         </div>
         <div>
@@ -55,8 +59,28 @@ const Sponsors = () => {
                 </a><br />
         </div>
         <div>
+               <a href="https://www.evergreeneducationalconsulting.com/" id="Evergreen Educational Consulting">
+                    <img src={S10} alt="Evergreen Educational Consulting" class="responsive1"/>
+                </a><br />
+        </div>
+        <div>
                <a href="https://www.chick-fil-a.com/" id="Chick-Fil-A">
                     <img src={S7} alt="Chick-Fil-A" class="responsive1"/>
+                </a><br />
+        </div>
+        <div>
+               <a href="https://www.flagtagaz.com/" id="FlagTag">
+                    <img src={S2} alt="FlagTag" class="responsive1"/>
+                </a><br />
+        </div>
+        <div>
+                <a href="https://oreganos.com/" id="Oregano's Pizza">
+                    <img src={S5} alt="Oregano's Pizza" class="responsive1"/>
+                </a><br />
+        </div>
+        <div>
+                <a href="https://boba.hackclub.com/" id="Boba Drops">
+                    <img src={S12} alt="Boba Drops" class="responsive1"/>
                 </a><br />
         </div>
     </div>
