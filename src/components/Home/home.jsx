@@ -104,7 +104,7 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right discord"
             >
-              <a href="https://discord.gg/scPtmsaT" target="_blank">
+              <a href="https://discord.gg/vpxrH4TgfY" target="_blank">
                 Join Discord <BsDiscord />
               </a>
             </button>

@@ -31,7 +31,7 @@ const footer = () => {
                 </a>
               </li>
              <li className="instalogo">
-              <a href="https://ponderosa-hacks.devpost.com/" target="_blank">
+              <a href="https://discord.gg/vpxrH4TgfY" target="_blank">
                   <SiDevpost />
                 </a>
               </li>
