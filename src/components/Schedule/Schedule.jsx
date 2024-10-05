@@ -26,7 +26,7 @@ const Timeline = () => {
                 <p> 😭 <b>6:00PM</b> Event Ends</p>
                 <br />
                 <p> ➡️ Attend optional workshops/demos. Times will be announced at event. </p>
-                <h1><a href="/resources.html">Hackathon Resources
+                <h1><a href="https://ponhack24.github.io/Resources/">Hackathon Resources
                     
                 </a></h1><br />
 
