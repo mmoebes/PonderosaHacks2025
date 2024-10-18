@@ -59,7 +59,7 @@ const Home = () => {
           </div>
           
           <h1 className="greetings">
-          Thank's for joining us on our first Planet Ponderosa adventure!
+          Thanks for joining us on our first Planet Ponderosa adventure!
           </h1> 
           {/*
           <h1 className="greetings">
