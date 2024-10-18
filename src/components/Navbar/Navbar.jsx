@@ -34,12 +34,14 @@ const Navbar = () => {
           <li className="borderXwidth">
             <a href="#About">About</a>
           </li>
+          {/*
           <li className="borderXwidth">
             <a href="#FAQs">FAQs</a>
           </li>
           <li className="borderXwidth">
             <a href="#Venue">Venue</a>
-          </li>          
+          </li> 
+          */}         
           <li className="borderXwidth">
             <a href="#Sponsors">Sponsors</a>
           </li>

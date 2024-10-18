@@ -57,11 +57,16 @@ const Home = () => {
               <img src={PonderosaHacksLogo} alt="PonderosaHacks"  />
             </a>
           </div>
+          
           <h1 className="greetings">
-          1st Ever High School Hackathon in Flagstaff
+          Thank's for joining us on our first Planet Ponderosa adventure!
           </h1> 
+          {/*
+          <h1 className="greetings">
+              1st Ever High School Hackathon in Flagstaff
+          </h1>
           <h2 className="date">
-          October 5, 2024 @ 8AM - 6:30PM
+              October 5, 2024 @ 8AM - 6:30PM
           </h2> 
           <h3 className="college-name">
             <a href="https://enrollbasis.com/flagstaff/" target="_blank">
@@ -108,15 +113,15 @@ const Home = () => {
                 Join Discord <BsDiscord />
               </a>
             </button>
-            {/* <button
+             <button
               type="button"
               className="btn btn-2 hover-slide-right donate"
             >
               <a href="https://hcb.hackclub.com/donations/start/ponderosa-hacks" target="_blank">
                 Donate <FaGift />
               </a>
-            </button>*/}
-          </div>
+            </button>
+          </div>*/}
     </div>
   );
 };

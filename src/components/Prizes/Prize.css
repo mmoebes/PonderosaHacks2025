@@ -8,6 +8,13 @@
     color: #ffffff;
   }
 
+.title-line {
+  color: #efa506;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 /* container */
 .responsive-three-column-grid {
   display:block;

@@ -1,3 +1,16 @@
+a {
+  color: #a66cff;
+}
+a:visited {
+  color: #f9d923;
+}
+a:hover {
+  color: #3ec70b;
+}
+a:active {
+  color: coral;
+}
+
 .about-section {
   padding-top: 0rem;
 
@@ -49,8 +62,16 @@
 .responsive2 {
   width: 100%;
   height: auto;
-  max-width:900px;
+  max-width:1200px;
   text-align: center;
+}
+.responsive3 {
+  width: 50%;
+  height: auto;
+  max-width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about-right-section {
   flex: 0.5;
@@ -73,7 +94,7 @@
 }
 
 .about-left-section p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
   color: #eceaea;
@@ -115,8 +136,7 @@
 
   .about-left-section p {
     font-size: 18px;
-    display: flex;
-    text-align: left;
+
   }
   .about-heading {
     font-size: 30px;
@@ -148,8 +168,7 @@
 
   .about-left-section p {
     font-size: 18px;
-    display: flex;
-    text-align: left;
+
   }
   .about-heading {
     font-size: 30px;
@@ -180,8 +199,6 @@
 
   .about-left-section p {
     font-size: 20px;
-    display: flex;
-    text-align: left;
   }
   .responsive2 {
     width: 90%;
@@ -205,8 +222,7 @@
 
   .about-left-section p {
     font-size: 20px;
-    display: flex;
-    /* text-align: center; */
+
   }
 
 }

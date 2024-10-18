@@ -13,7 +13,14 @@ const Prize = () => {
     
     <div className="team-container" id="Leadership">
       <h1 className="heading-tag-line">Leadership</h1>
+      
       <hr className="heading-underline" />
+      <h1 className="title-line">
+          Interested in joining the leadership team? Contact us&nbsp; 
+          <a href="mailto:maleea@ponderosa-hacks.com?" target="_blank">
+                 <FaEnvelope color='orange'/>
+                </a> 
+          </h1>
         <div class="responsive-three-column-grid">
 
             <div>

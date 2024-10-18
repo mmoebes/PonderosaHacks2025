@@ -21,6 +21,9 @@ const Sponsors = () => {
     <div className="sponsor-head-section">
       <h1 className="heading-tag-line1">Sponsors</h1>
       <hr className="heading-underline1" />
+      <h2 align="center"><br />
+        Thank you for sponsoring our October 2024 Hackathon event!
+        </h2>
     </div>
     <div className="responsive-multi-column-grid">
        <div>
@@ -87,6 +90,8 @@ const Sponsors = () => {
 
     <div className="sponsor-subsection">
     <div className="sponsor-left-section">
+
+      {/*
         <h2 className="sponsor-heading"><br />
         This event is being organized by high school students - please support us!
         </h2>
@@ -104,16 +109,24 @@ const Sponsors = () => {
         <div className="sponsor-heading2">
         <a href = {Pdf} target = "_blank"><FaDownload />  Download our Sponsorship Packet</a>
         <br />
+        </div>
+        */}
         <br />
-         <button
-              type="button3"
-              className="btn3 discord3"
-            >
-              <a href="https://hcb.hackclub.com/donations/start/ponderosa-hacks" target="_blank">
-                Donate/Sponsor 
-              </a>
-            </button>
-            </div>
+
+
+          <p>Ponderosa Hacks is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit (EIN 81-2908499), so all donations are tax deducible. Please contact us with interest in donating 
+          or sponsoring a future event or workshop. We appreciate your support for our student-led club. Thank you!
+        </p>
+            <div className="sponsor-heading2">
+                <button
+                  type="button3"
+                  className="btn3 discord3"
+                >
+                <a href="https://hcb.hackclub.com/donations/start/ponderosa-hacks" target="_blank">
+                    Donate/Sponsor 
+                </a>
+                </button>
+            </div>    
       </div>
       </div>
   </div>
