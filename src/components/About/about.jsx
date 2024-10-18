@@ -68,7 +68,7 @@ const AboutSection = () => {
           <a href="/">
                     <img src={PH2} class="responsive2"/>
               </a><br />
-              <br /><p>Lots of technology was leveraged for workshops and student projects, such as HTML, CSS, Github, Codespace, Arduino IDE, Creality 3D, electronics, and robotics kits.
+              <br /><p>Lots of technology was leveraged for workshops and student projects, such as HTML, CSS, Github, Codespace, Arduino IDE, Creality 3D, electronics boards, and robotics kits.
               See all the AMAZING projects created at the Ponderosa Hacks event in the&nbsp;          
               <a href="https://ponderosa-hacks.devpost.com/project-gallery" target="_blank">
               Devpost Project Gallery</a> &nbsp;and view our&nbsp;          
