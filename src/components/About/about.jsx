@@ -13,7 +13,7 @@ const AboutSection = () => {
         <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
         <h1 className="about-heading2">Limited Spots - Register Now!</h1>    */}
 
-         <h1 className="about-heading2">Stay tuned for our next Hackathon event and mini-workshops in Flagstaff, AZ</h1>
+         <h1 className="about-heading2">Stay tuned for our next free Hackathon event and mini-workshops in Flagstaff, AZ</h1>
           
       </div>
       <h1 className="heading-tag-line3">About</h1>
@@ -61,14 +61,14 @@ const AboutSection = () => {
           <p><br />
           Students worked in teams to brainstorm and create innovative solutons
           to three challenging theme categories presented at the event. 7th-12th grade students from several schools in Arizona with various backgrounds and interests, created websites, apps, and physical
-          prototypes to compete for prizes. Throughout the day, workshops were held for how to get started on a hackathon project, website building 101, and a fun robotics
+          prototypes to compete for prizes. Throughout the day, workshops were held for how to get started on a hackathon project, website building 101, 3D printing demos, and a fun robotics
           smart car Arduino programming challenge. Thanks to our generous sponsors, we were able to provide breakfast (waffle station with fruit and sausage) and lunch (Firehouse Subs 
           and chips), as well as snacks all day including a chocolate fountain and Sonic slushies - in addition to donated tshirts, swag, and prizes.
           </p>
           <a href="/">
                     <img src={PH2} class="responsive2"/>
               </a><br />
-              <br /><p>Lots of technology was leveraged for workshops and student projects, such as HTML, CSS, Github, Codespace, Arduino IDE, electronics, and robotics kits.
+              <br /><p>Lots of technology was leveraged for workshops and student projects, such as HTML, CSS, Github, Codespace, Arduino IDE, Creality 3D, electronics, and robotics kits.
               See all the AMAZING projects created at the Ponderosa Hacks event in the&nbsp;          
               <a href="https://ponderosa-hacks.devpost.com/project-gallery" target="_blank">
               Devpost Project Gallery</a> &nbsp;and view our&nbsp;          
