@@ -114,8 +114,8 @@ const Sponsors = () => {
         <br />
 
 
-          <p>Ponderosa Hacks is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit (EIN 81-2908499), so all donations are tax deducible. Please contact us with interest in donating 
-          or sponsoring a future event or workshop. We appreciate your support for our student-led club. Thank you!
+          <p>Ponderosa Hacks is student-led organization that is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit (EIN 81-2908499), so all donations are tax deductible. Please support us by donating to our cause
+          or sponsoring a future event or workshop. Thank you!
         </p>
             <div className="sponsor-heading2">
                 <button
