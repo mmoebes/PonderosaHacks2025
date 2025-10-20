@@ -1,12 +1,10 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-// https://vitejs.dev/config/
-export default defineConfig({
-  server: {
-    port: 3000,
-    base: '/PonderosaHacks2025/',
-  },
-  
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
 
-  plugins: [react()],
-});
+export default defineConfig(({ mode }) => {
+  const isProd = mode === 'production'
+  return {
+    base: isProd ? '/PonderosaHacks2025/' : '/',
+    plugins: [react()]
+  }
+})
